@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-insitu-policy": [
+                "addons/volto-insitu-policy/src"
+            ]
         },
         "baseUrl": "src"
     }
