@@ -1897,6 +1897,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-eea-design-system@npm:*, @eeacms/volto-eea-design-system@npm:1.22.7":
+  version: 1.22.7
+  resolution: "@eeacms/volto-eea-design-system@npm:1.22.7"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.28.1
+    remixicon: 3.6.0
+    slick-carousel: ^1.8.1
+  checksum: 44850e6148b0be82f705650e1900d2972737828f7ab6aba5333a6d8c2547262a3301ff8e14232ff753a33164d5721be4a9ac447822c90ef320751915968dd8c6
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-kitkat@npm:*":
   version: 21.1.0
   resolution: "@eeacms/volto-eea-kitkat@npm:21.1.0"
@@ -1942,6 +1957,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-eea-website-theme@npm:1.27.2":
+  version: 1.27.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.27.2"
+  dependencies:
+    "@eeacms/volto-block-style": "*"
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-group-block": "*"
+    volto-subsites: "*"
+  checksum: 702338fb6dd2696382773fdb043bcd232b7efb9e0335154402ce6e8252df38abd0bafd54a06d0f9acbf000f087161b00861627e765c8d0bbed0da2650ea74852
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-group-block@npm:*":
+  version: 6.4.0
+  resolution: "@eeacms/volto-group-block@npm:6.4.0"
+  checksum: 834ed32fa8440d707ed08f3cec3c49b72466ba9dbcef73fa9d5c36b6f61b13827e60f31ae453c9e078d38f82a5535a082dbb39f3eb7af7d5dfbe83db10e29365
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-group-block@npm:6.3.5":
   version: 6.3.5
   resolution: "@eeacms/volto-group-block@npm:6.3.5"
@@ -1956,6 +1990,13 @@ __metadata:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": ^1.0.1
   checksum: 7ef63a9360a96808fa58eaf0f6fac68de5f065c48949240a7c83817feecd981d803824b63a798cfef1509da56bc4a7021625a2868f885267ad0f1b41c618119d
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-insitu-policy@npm:*":
+  version: 0.1.1
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.1"
+  checksum: 1eed12d9e83148c6d64cae6aac57279f49410292d896dc7fda14fe64641d492c20e53517be2a2d5360d06e7a434b33a169f73e608f3c1115d00fe53486650535
   languageName: node
   linkType: hard
 
@@ -2435,6 +2476,13 @@ __metadata:
     react: ^16.8.0 || ^17
     react-dom: ^16.8.0 || ^17
   checksum: 030380d5ea00234e5aa7e014d4e1d268a3dee2d59a2564e4d6a4083cab9ece84f3f3643a8474b53a18a855a0894e91d33d0e0d756008046d59e750603b5b1557
+  languageName: node
+  linkType: hard
+
+"@fontsource/roboto@npm:4.5.8":
+  version: 4.5.8
+  resolution: "@fontsource/roboto@npm:4.5.8"
+  checksum: 460b6de2c9f7a172192c3f5bdd3aa11f78f0b6660dca9dc2b9d8207272b50c55b5a8f2da68e11e7fbaf44c7d3cf4191030eecce9def79fab75d4cc1de39754e2
   languageName: node
   linkType: hard
 
@@ -13951,7 +13999,10 @@ __metadata:
   resolution: "insitu-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
+    "@eeacms/volto-eea-design-system": 1.22.7
     "@eeacms/volto-eea-kitkat": "*"
+    "@eeacms/volto-eea-website-theme": 1.27.2
+    "@eeacms/volto-insitu-policy": "*"
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.30.1
     "@storybook/addon-actions": ^6.3.0
@@ -20528,7 +20579,7 @@ __metadata:
   dependencies:
     prop-types: ^15.7.2
   peerDependencies:
-    react-intl: ^2.2.2 || ^3.0.0
+    react-intl: ^2.2.2 || ^3.0.0
     react-redux: ^5.0.1 || ^6.0.0 || ^7.0.0
   checksum: eece9837c7b97581961732168b2e286e771ad4104bdde94caf3ce61ef51d8daa64b4365d4353901029a0cfa91c411a5149ff8bf0a89ac94eebce93982e1cb0f4
   languageName: node
@@ -20585,6 +20636,19 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-lazy-load-image-component@npm:1.5.6":
+  version: 1.5.6
+  resolution: "react-lazy-load-image-component@npm:1.5.6"
+  dependencies:
+    lodash.debounce: ^4.0.8
+    lodash.throttle: ^4.1.1
+  peerDependencies:
+    react: ^15.x.x || ^16.x.x || ^17.x.x || ^18.x.x
+    react-dom: ^15.x.x || ^16.x.x || ^17.x.x || ^18.x.x
+  checksum: 2db8dd56e5926c4831e58b05650e310fd8eabc24607716ad7ffda3e0f6b325434edb098ad27068ea8db7f42fec37bc17eaffbaf562a322e6f1ace16dcc3d5422
   languageName: node
   linkType: hard
 
@@ -20977,6 +21041,22 @@ __metadata:
     react: ^0.14.0 || ^15.0.1 || ^16.0.0
     react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0
   checksum: af03d42cc940795d417b00a4eccb11709c1120f2702121d41cab0bf956ccfde7711aa9361e791ea3bc744662c4d911077c59ab114358ff57f27a9c4625308142
+  languageName: node
+  linkType: hard
+
+"react-slick@npm:^0.28.1":
+  version: 0.28.1
+  resolution: "react-slick@npm:0.28.1"
+  dependencies:
+    classnames: ^2.2.5
+    enquire.js: ^2.1.6
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0
+    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0
+  checksum: 399ad43b9e10dfd66a000dd00faf1f476428ff8b9e70705d253056d279a9297b441d08fe7255b5ffea6f6e05ce63fb6c36f86fddcdffd453ee8f47ca9d958f72
   languageName: node
   linkType: hard
 
@@ -21677,6 +21757,13 @@ __metadata:
   dependencies:
     mdast-squeeze-paragraphs: ^4.0.0
   checksum: 2071eb74d0ecfefb152c4932690a9fd950c3f9f798a676f1378a16db051da68fb20bf288688cc153ba5019dded35408ff45a31dfe9686eaa7a9f1df9edbb6c81
+  languageName: node
+  linkType: hard
+
+"remixicon@npm:3.6.0":
+  version: 3.6.0
+  resolution: "remixicon@npm:3.6.0"
+  checksum: 602815dd4af6f087fe661f2591dad76476aa132e9cf062195130d33b289e2426319efd20c622b167429c1de88b3c08e062194f079df2773698dd239b62248aec
   languageName: node
   linkType: hard
 
@@ -25242,6 +25329,15 @@ __metadata:
   version: 1.1.2
   resolution: "vm-browserify@npm:1.1.2"
   checksum: 10a1c50aab54ff8b4c9042c15fc64aefccce8d2fb90c0640403242db0ee7fb269f9b102bdb69cfb435d7ef3180d61fd4fb004a043a12709abaf9056cfd7e039d
+  languageName: node
+  linkType: hard
+
+"volto-subsites@npm:*":
+  version: 4.0.0
+  resolution: "volto-subsites@npm:4.0.0"
+  peerDependencies:
+    "@plone/volto": ">=16.0.0-alpha.38"
+  checksum: 9f943abc00fb1d25d1bf2b487b9f545663ad85b216c751a2fd37739cea7cfd62de958edc8bdfbb51b3e795007199706b272f344e9e08179874a02f903b3e2071
   languageName: node
   linkType: hard
 
