@@ -2033,14 +2033,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.8":
-  version: 0.1.8
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.8"
+"@eeacms/volto-insitu-policy@npm:0.1.9":
+  version: 0.1.9
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.9"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-listing-block": "*"
-  checksum: 07608a863dc6ba5a1cd635687c570976cde611e38d78933ce31f12bd3610f7fb20e927a24886ccfeb16b9fa0081f487a1187af16898f1e50fa543372d37f2790
+  checksum: 7cca50aa2b08b120b9305ace159937434f08624e9197c19026f59f66d3e1e019ef5cf06b93e2ca338196db527a83889dc0da28a4a52ec3da199b80a65d22cbf1
   languageName: node
   linkType: hard
 
@@ -14062,7 +14062,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.23.3
     "@eeacms/volto-eea-kitkat": 23.0.1
     "@eeacms/volto-eea-website-theme": 1.32.0
-    "@eeacms/volto-insitu-policy": 0.1.8
+    "@eeacms/volto-insitu-policy": 0.1.9
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.30.1
