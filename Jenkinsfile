@@ -7,7 +7,7 @@ pipeline {
     template = "templates/insitu-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'insitu-frontend.eionet.europa.eu'
+    SONARQUBE_TAG = 'insitu.copernicus.eu'
   }
 
   agent any
