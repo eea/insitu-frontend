@@ -142,7 +142,7 @@
     "@eeacms/volto-eea-website-theme": "1.33.1",
     "@eeacms/volto-insitu-policy": "0.1.10",
     "@plone-collective/volto-authomatic": "2.0.0",
-    "@plone/volto": "16.30.1"
+    "@plone/volto": "16.31.4"
   },
   "devDependencies": {
     "@cypress/code-coverage": "3.10.0",
