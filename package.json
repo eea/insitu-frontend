@@ -139,7 +139,7 @@
   "dependencies": {
     "@eeacms/volto-eea-design-system": "1.23.5",
     "@eeacms/volto-eea-kitkat": "23.1.0",
-    "@eeacms/volto-eea-website-theme": "1.33.1",
+    "@eeacms/volto-eea-website-theme": "1.33.2",
     "@eeacms/volto-insitu-policy": "0.1.10",
     "@plone-collective/volto-authomatic": "2.0.0",
     "@plone/volto": "16.31.4"
