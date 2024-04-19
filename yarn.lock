@@ -1705,29 +1705,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.10.0":
-  version: 3.12.35
-  resolution: "@cypress/code-coverage@npm:3.12.35"
-  dependencies:
-    "@cypress/webpack-preprocessor": ^6.0.0
-    chalk: 4.1.2
-    dayjs: 1.11.10
-    debug: 4.3.4
-    execa: 4.1.0
-    globby: 11.1.0
-    istanbul-lib-coverage: ^3.0.0
-    js-yaml: 4.1.0
-    nyc: 15.1.0
-  peerDependencies:
-    "@babel/core": ^7.0.1
-    "@babel/preset-env": ^7.0.0
-    babel-loader: ^8.3 || ^9
-    cypress: "*"
-    webpack: ^4 || ^5
-  checksum: a62a51c40fdf5a13e874bc98b43d44d78a57d2df4658857cb13b7143eb5916c0219e6ad8af408ddf63423f48bc89c76765f6ba3540ac1214462fc14d3a29c2f9
-  languageName: node
-  linkType: hard
-
 "@cypress/request@npm:^2.88.10":
   version: 2.88.10
   resolution: "@cypress/request@npm:2.88.10"
@@ -1767,22 +1744,6 @@ __metadata:
     babel-loader: ^8.0.2 || ^9
     webpack: ^4 || ^5
   checksum: 4dc2babc77df5fad7eb16629ca716f73df930739563be6bff4e336f9a8f08cf80915a7eed2ea582294ed67336313b62cc30d04ebe3fc2a9b1e48e1445be3c297
-  languageName: node
-  linkType: hard
-
-"@cypress/webpack-preprocessor@npm:^6.0.0":
-  version: 6.0.1
-  resolution: "@cypress/webpack-preprocessor@npm:6.0.1"
-  dependencies:
-    bluebird: 3.7.1
-    debug: ^4.3.4
-    lodash: ^4.17.20
-  peerDependencies:
-    "@babel/core": ^7.0.1
-    "@babel/preset-env": ^7.0.0
-    babel-loader: ^8.3 || ^9
-    webpack: ^4 || ^5
-  checksum: 7e7195603423c6147220642829b02a5953c624bfcb618942ac5def545d289c72fb183f2d7b7810e3db39ae9441927fe3bcadcb51bf693e2a4b48251c08a78666
   languageName: node
   linkType: hard
 
@@ -2111,15 +2072,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.11":
-  version: 0.1.11
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.11"
+"@eeacms/volto-insitu-policy@npm:0.1.12":
+  version: 0.1.12
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.12"
   dependencies:
-    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-listing-block": "*"
-  checksum: 4ba46960a4412896ca7697f6db6b93dcbdfb5f9ad49930702db4ab1f99f564e384a8c0d579650448350443a6985153382bd15ec8f132afcb79f80c16a0422bf6
+  checksum: 8052cdf49028408f630dc7a55cf967a8851b6b37c7347854829083e48a0ff6653db5ae11d21b9c819965d765db9134a09db3613f57a6377fa3e001b45ff81c25
   languageName: node
   linkType: hard
 
@@ -6637,13 +6597,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"argparse@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "argparse@npm:2.0.1"
-  checksum: 83644b56493e89a254bae05702abf3a1101b4fa4d0ca31df1c9985275a5a5bd47b3c27b7fa0b71098d41114d8ca000e6ed90cad764b306f8a503665e4d517ced
-  languageName: node
-  linkType: hard
-
 "aria-query@npm:^3.0.0":
   version: 3.0.0
   resolution: "aria-query@npm:3.0.0"
@@ -10136,13 +10089,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:1.11.10":
-  version: 1.11.10
-  resolution: "dayjs@npm:1.11.10"
-  checksum: a6b5a3813b8884f5cd557e2e6b7fa569f4c5d0c97aca9558e38534af4f2d60daafd3ff8c2000fed3435cfcec9e805bcebd99f90130c6d1c5ef524084ced588c4
-  languageName: node
-  linkType: hard
-
 "dayjs@npm:^1.10.4":
   version: 1.11.7
   resolution: "dayjs@npm:1.11.7"
@@ -13404,7 +13350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.1.0, globby@npm:^11.0.1, globby@npm:^11.0.2, globby@npm:^11.0.4":
+"globby@npm:^11.0.1, globby@npm:^11.0.2, globby@npm:^11.0.4":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -14504,7 +14450,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.23.6
     "@eeacms/volto-eea-kitkat": 24.0.1
     "@eeacms/volto-eea-website-theme": 1.33.2
-    "@eeacms/volto-insitu-policy": 0.1.11
+    "@eeacms/volto-insitu-policy": 0.1.12
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
@@ -16189,17 +16135,6 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: bef146085f472d44dee30ec34e5cf36bf89164f5d585435a3d3da89e52622dff0b188a580e4ad091c3341889e14cb88cac6e4deb16dc5b1e9623bb0601fc255c
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:4.1.0":
-  version: 4.1.0
-  resolution: "js-yaml@npm:4.1.0"
-  dependencies:
-    argparse: ^2.0.1
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: c7830dfd456c3ef2c6e355cc5a92e6700ceafa1d14bba54497b34a99f0376cecbb3e9ac14d3e5849b426d5a5140709a66237a8c991c675431271c4ce5504151a
   languageName: node
   linkType: hard
 
