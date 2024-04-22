@@ -138,7 +138,7 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-block-toc": "5.0.0",
+    "@eeacms/volto-block-toc": "5.0.1",
     "@eeacms/volto-eea-design-system": "1.23.6",
     "@eeacms/volto-eea-kitkat": "24.0.1",
     "@eeacms/volto-eea-website-theme": "1.33.2",
