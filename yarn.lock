@@ -1973,7 +1973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:^24.0.1":
+"@eeacms/volto-eea-kitkat@npm:<25.0.0":
   version: 24.0.1
   resolution: "@eeacms/volto-eea-kitkat@npm:24.0.1"
   dependencies:
@@ -2021,19 +2021,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:*":
-  version: 1.28.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.28.1"
-  dependencies:
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-group-block": "*"
-    volto-subsites: "*"
-  checksum: f1ed65b356746838b8b1c6b0db4a8d049ead4d87c7351930ae91d765c43c605ecbbc0a500d96f9512e7941eb93237672f8e4fb72a669a8f00feb39b06daef638
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-website-theme@npm:^1.33.2":
+"@eeacms/volto-eea-website-theme@npm:<2.0.0":
   version: 1.33.2
   resolution: "@eeacms/volto-eea-website-theme@npm:1.33.2"
   dependencies:
@@ -14448,8 +14436,8 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 5.0.1
     "@eeacms/volto-eea-design-system": 1.23.6
-    "@eeacms/volto-eea-kitkat": ^24.0.1
-    "@eeacms/volto-eea-website-theme": ^1.33.2
+    "@eeacms/volto-eea-kitkat": <25.0.0
+    "@eeacms/volto-eea-website-theme": <2.0.0
     "@eeacms/volto-insitu-policy": 0.1.14
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
