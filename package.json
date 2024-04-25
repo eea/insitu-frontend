@@ -2,7 +2,7 @@
   "name": "insitu-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "1.19.0",
+  "version": "1.20.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
