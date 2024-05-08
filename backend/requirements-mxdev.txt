@@ -1,0 +1,12 @@
+###############################################################################
+# mxdev development sources
+-e ./src/eea.insitu.policy --pre
+
+
+###############################################################################
+# begin requirements from: src/requirements.txt
+
+# eea.insitu.policy -> mxdev disabled (source)
+
+# end requirements from: src/requirements.txt
+###############################################################################
