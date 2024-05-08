@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  backend:
+    entrypoint: sh -c "tail -f /dev/null"
+
+    volumes:
+      - ./backend/:/app/src
