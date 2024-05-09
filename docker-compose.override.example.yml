@@ -1,0 +1,11 @@
+version: '2.4'
+services:
+  backend:
+    entrypoint: sh -c "tail -f /dev/null"
+
+    environment:
+      CIS2_IMPORT_VIEW_TOKEN: "testViewTokenCIS2"
+      CIS2_IMPORT_TOKEN: "testTokenCIS2"
+
+    volumes:
+      - ./backend/:/app/src
