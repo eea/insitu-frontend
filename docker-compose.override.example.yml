@@ -5,7 +5,8 @@ services:
 
     environment:
       CIS2_IMPORT_VIEW_TOKEN: "testViewTokenCIS2"
-      CIS2_IMPORT_TOKEN: "testTokenCIS2"
+      CIS2_IMPORT_TOKEN: "replacethis"
+      CIS2_IMPORT_URL: "replacethis"
 
     volumes:
       - ./backend/:/app/src
