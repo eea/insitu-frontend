@@ -2,7 +2,7 @@
   "name": "insitu-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -138,8 +138,8 @@
     "node": "^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-eea-kitkat": "25.0.1",
-    "@eeacms/volto-eea-website-theme": "<2.0.0",
+    "@eeacms/volto-eea-kitkat": "24.0.1",
+    "@eeacms/volto-eea-website-theme": "1.33.2",
     "@eeacms/volto-controlpanel": "0.3.0",
     "@eeacms/volto-nextcloud-video-block": "0.4.8",
     "@eeacms/volto-anchors": "0.7.0",
