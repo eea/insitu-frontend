@@ -139,7 +139,7 @@
   },
   "resolutions": {
     "@eeacms/volto-eea-kitkat": "24.0.1",
-    "@eeacms/volto-eea-website-theme": "1.33.2",
+    "@eeacms/volto-eea-website-theme": "2.0.1",
     "@eeacms/volto-controlpanel": "0.3.0",
     "@eeacms/volto-nextcloud-video-block": "0.4.8",
     "@eeacms/volto-anchors": "0.7.0",
