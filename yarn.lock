@@ -2034,14 +2034,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.18":
-  version: 0.1.18
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.18"
+"@eeacms/volto-insitu-policy@npm:0.1.19":
+  version: 0.1.19
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.19"
   dependencies:
+    "@eeacms/volto-block-style": <7.0.0
     "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": 1.33.2
+    "@eeacms/volto-eea-website-theme": <2.0.0
     "@eeacms/volto-listing-block": 7.1.0
-  checksum: 7667021ddd2cbf8cdc858318ab52e461c8f0d1be45f9ee09e75e330696cfddabc9076d54d0fe544598bae8006407e5dc19e1f0c88dede9090d8d427f722a43a4
+    "@eeacms/volto-tabs-block": 7.5.1
+    "@tanstack/react-table": ^8.17.3
+  checksum: 6ae0397b62aad3e852c5eb593d22dc0ee285531c59b57043a0ced58768deedf9fb4e22a7ed8a83b084d6d1ee1f0c29fa1f7728eda3fb999dd31ea966990dc0c0
   languageName: node
   linkType: hard
 
@@ -5052,6 +5055,25 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 8b75290c65a6a2beb3db4157ed95ce74dab06d5499dc3fc7a848fa5c9fc0f506bf6533638bb50c3a1f27acfeaa6ade0acdde8beede2241eba8d577965d85d299
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-table@npm:^8.17.3":
+  version: 8.17.3
+  resolution: "@tanstack/react-table@npm:8.17.3"
+  dependencies:
+    "@tanstack/table-core": 8.17.3
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: ec635f9c6e66bc5655e71ef5bb5087c78fca79e619d8cf80ba395152d88e72ef78e87cbb3e4b9e0b4d86504068c8bf5ba320309529ef9d3dd1ee4630bf75067a
+  languageName: node
+  linkType: hard
+
+"@tanstack/table-core@npm:8.17.3":
+  version: 8.17.3
+  resolution: "@tanstack/table-core@npm:8.17.3"
+  checksum: 4f7115d6198f63bea6a00a1c8f33288453463afbede716365b99b3ffa565c46861eb2903c26d3d1de35211ad85fa13bc1e0f35b3546b8f7fc46218441cf06700
   languageName: node
   linkType: hard
 
@@ -14397,7 +14419,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.23.7
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.18
+    "@eeacms/volto-insitu-policy": 0.1.19
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
