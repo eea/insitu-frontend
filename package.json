@@ -199,7 +199,7 @@
     "@eeacms/volto-eea-design-system": "1.23.7",
     "@eeacms/volto-eea-kitkat": "<25.0.0",
     "@eeacms/volto-eea-website-theme": "<2.0.0",
-    "@eeacms/volto-insitu-policy": "0.1.18",
+    "@eeacms/volto-insitu-policy": "0.1.19",
     "@plone-collective/volto-authomatic": "2.0.0",
     "@plone/volto": "16.31.4"
   },
