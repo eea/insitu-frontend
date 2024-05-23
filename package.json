@@ -138,7 +138,7 @@
     "node": "^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-eea-kitkat": "24.0.1",
+    "@eeacms/volto-eea-kitkat": "25.0.2",
     "@eeacms/volto-eea-website-theme": "2.0.2",
     "@eeacms/volto-controlpanel": "0.3.0",
     "@eeacms/volto-nextcloud-video-block": "0.4.8",
