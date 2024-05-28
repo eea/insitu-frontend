@@ -2010,15 +2010,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-eea-website-theme@npm:2.0.2"
+"@eeacms/volto-eea-website-theme@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:2.1.1"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 6b9269e04f25e288e3d46c0fa66cef9ad99c35f46e4d1f78bed6fbcdf7d5ab26811a7822d1d39f26244f085ab52991fc91ed47bdd5911123de291bf6ae2a1483
+  checksum: 380a24c4309861b93d308d3f4c276c69299da570c9f11444f9692e896f3f5775beb4a11d480f7e0540c28b731939aa37eb06a0f593d57724d2e823063249ccea
   languageName: node
   linkType: hard
 
@@ -2049,9 +2049,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.19":
-  version: 0.1.19
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.19"
+"@eeacms/volto-insitu-policy@npm:0.1.20":
+  version: 0.1.20
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.20"
   dependencies:
     "@eeacms/volto-block-style": <7.0.0
     "@eeacms/volto-eea-design-system": "*"
@@ -2059,7 +2059,7 @@ __metadata:
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-tabs-block": 7.5.1
     "@tanstack/react-table": ^8.17.3
-  checksum: 6ae0397b62aad3e852c5eb593d22dc0ee285531c59b57043a0ced58768deedf9fb4e22a7ed8a83b084d6d1ee1f0c29fa1f7728eda3fb999dd31ea966990dc0c0
+  checksum: 7a9da0e4d97f71ddf31cc703547b195464381bac1e50bc57204d5ad47433466a3cb16ede886ee1f6ca882cf62083b398a6e11a8349b2b127fe6d55c078eef8f6
   languageName: node
   linkType: hard
 
@@ -14433,7 +14433,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.31.0
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.19
+    "@eeacms/volto-insitu-policy": 0.1.20
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
