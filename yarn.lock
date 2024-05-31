@@ -2049,9 +2049,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.20":
-  version: 0.1.20
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.20"
+"@eeacms/volto-insitu-policy@npm:0.1.21":
+  version: 0.1.21
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.21"
   dependencies:
     "@eeacms/volto-block-style": <7.0.0
     "@eeacms/volto-eea-design-system": "*"
@@ -2059,7 +2059,7 @@ __metadata:
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-tabs-block": 7.5.1
     "@tanstack/react-table": ^8.17.3
-  checksum: 7a9da0e4d97f71ddf31cc703547b195464381bac1e50bc57204d5ad47433466a3cb16ede886ee1f6ca882cf62083b398a6e11a8349b2b127fe6d55c078eef8f6
+  checksum: 3cb115fae9061b901520676c22a98b83387e983bae32ccedda04afaa71899b79132710376587840e26b72a48939b1635eef48eaa5c0e2836d8787d93497d7436
   languageName: node
   linkType: hard
 
@@ -2193,12 +2193,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-taxonomy@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@eeacms/volto-taxonomy@npm:4.1.2"
+"@eeacms/volto-taxonomy@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@eeacms/volto-taxonomy@npm:5.1.0"
   dependencies:
     react-sortable-tree: 2.8.0
-  checksum: a74622bc8f244eff28e50c6a1b1d388e99605687e6f5c4cd74ec8101cbf2645b484437b83344e63eef891b247abfd20ec6b9f68b31cec9af7a464031980b63b8
+  checksum: 226b8b7b536cf2c155c141ee68a92d5c01ce78f8da3129a3558fb768787a5370d020678f1f9d7821989acf55cb677659aaf290313d5f744c82633f65c4fc7a10
   languageName: node
   linkType: hard
 
@@ -14433,7 +14433,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.31.0
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.20
+    "@eeacms/volto-insitu-policy": 0.1.21
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
