@@ -1837,20 +1837,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-image-cards@npm:1.3.8":
-  version: 1.3.8
-  resolution: "@eeacms/volto-block-image-cards@npm:1.3.8"
+"@eeacms/volto-block-image-cards@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-block-image-cards@npm:2.0.1"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     react-lazy-load-image-component: ^1.4.0
-    react-resize-detector: 6.7.6
+    react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: ^1.8.1
   peerDependencies:
     classnames: 2.2.6
     react-loadable: 5.5.0
     uuid: 8.3.1
-  checksum: e7f2c73a78676229633831c91bd2ecfaa578242eba9c70eac3bb56629838fbab20f9545e3c118e1f01619bee5d2d148cd435b041c46d5c054e52495deab11476
+  checksum: 56534b7d1b6b9d367be529d3638dd0534885134d0de97c384f25f6856b6037822965f4785b77cfc6d970ff60e08fa1e232acd05af3554c6ccedaca396472ca10
   languageName: node
   linkType: hard
 
@@ -2049,9 +2049,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.22"
+"@eeacms/volto-insitu-policy@npm:0.1.23":
+  version: 0.1.23
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.23"
   dependencies:
     "@eeacms/volto-block-style": <7.0.0
     "@eeacms/volto-eea-design-system": "*"
@@ -2059,7 +2059,7 @@ __metadata:
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-tabs-block": 7.5.1
     "@tanstack/react-table": ^8.17.3
-  checksum: b1c11c15f40dbee8c79962d0f8b61e35baffc4e0287c6b8b4bb10e6ac1b947c7f08028ccda7d6adb07640705b212b28370b9230a2dd2d747c511339d1ad2e55a
+  checksum: 410ea8d2ffd7878c4c3746bedba0ac63e241d850c5721728015e0f6c43c2d8f4711e7ae69e35970b887fbc744c513495f8db71a7af4dbb83619e528c194220de
   languageName: node
   linkType: hard
 
@@ -14433,7 +14433,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.31.0
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.22
+    "@eeacms/volto-insitu-policy": 0.1.23
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
@@ -21267,21 +21267,6 @@ __metadata:
   version: 0.9.0
   resolution: "react-refresh@npm:0.9.0"
   checksum: 6440146176f19402ffb7d66f317e40b1c42c88579b4d439b49021e38be6307c642da3e8732a72e6997b6bb1127db0da92f4aa433da4313ce8ebad0c1efa2ed4a
-  languageName: node
-  linkType: hard
-
-"react-resize-detector@npm:6.7.6":
-  version: 6.7.6
-  resolution: "react-resize-detector@npm:6.7.6"
-  dependencies:
-    "@types/resize-observer-browser": ^0.1.6
-    lodash.debounce: ^4.0.8
-    lodash.throttle: ^4.1.1
-    resize-observer-polyfill: ^1.5.1
-  peerDependencies:
-    react: ^16.0.0 || ^17.0.0
-    react-dom: ^16.0.0 || ^17.0.0
-  checksum: f2a7b0fbd43fb872f9f283fa9a5ea796c33daeb254ea368a46082a44c0c51e2492e8e67e88df9ca098072e541dc2d1ff5653edc26ed95d7a2da138cd8975a6a1
   languageName: node
   linkType: hard
 
