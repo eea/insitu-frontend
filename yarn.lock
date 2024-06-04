@@ -1854,14 +1854,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:6.1.0":
-  version: 6.1.0
-  resolution: "@eeacms/volto-block-style@npm:6.1.0"
+"@eeacms/volto-block-style@npm:7.1.0":
+  version: 7.1.0
+  resolution: "@eeacms/volto-block-style@npm:7.1.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
-  checksum: 1a0abf8193d0cc873b03c9bedd4e4a64fb37e926a9985868f1a5f7c6139d509598b93170cefdff28da8fb1f8b24e7b8abca6a5bdaa26fef6b303d1ea467dc444
+  checksum: 64e9283275656f98db41d6cbfb6eb65c8bb34f88b2f6ee2cb3150dcd75b24b6f376010407a800d109f2130abe598032fed8da0af55e64bab08c2ade20d7523c1
   languageName: node
   linkType: hard
 
@@ -2049,9 +2049,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.23":
-  version: 0.1.23
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.23"
+"@eeacms/volto-insitu-policy@npm:0.1.24":
+  version: 0.1.24
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.24"
   dependencies:
     "@eeacms/volto-block-style": <7.0.0
     "@eeacms/volto-eea-design-system": "*"
@@ -2059,7 +2059,7 @@ __metadata:
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-tabs-block": 7.5.1
     "@tanstack/react-table": ^8.17.3
-  checksum: 410ea8d2ffd7878c4c3746bedba0ac63e241d850c5721728015e0f6c43c2d8f4711e7ae69e35970b887fbc744c513495f8db71a7af4dbb83619e528c194220de
+  checksum: dfee741a57af5b7d3861446ef2ede061d4ae5725916c600aeb13f10bbb1ea6bc282f98a4d9f68c31124de55138326d9495bac88bde14915220bafd7fdfdf149c
   languageName: node
   linkType: hard
 
@@ -14433,7 +14433,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.31.0
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.23
+    "@eeacms/volto-insitu-policy": 0.1.24
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
