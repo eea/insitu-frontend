@@ -115,7 +115,7 @@ pipeline {
 
     stage('Build & Push ( on tag )') {
       when {
-         anyOf {
+        anyOf {
           buildingTag()
           branch 'volto-17'
         }

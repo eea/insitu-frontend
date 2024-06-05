@@ -53,6 +53,10 @@ install: ## Install the frontend
 	$(MAKE) preinstall
 	yarn install
 
+.PHONY: build
+build:			## Build frontend
+	NODE_OPTIONS="--max-old-space-size=8192" yarn build
+
 .PHONY: preinstall
 preinstall: ## Preinstall task, checks if missdev (mrs-developer) is present and runs it
 	if [ -f $$(pwd)/mrs.developer.json ]; then make develop; fi
