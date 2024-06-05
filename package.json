@@ -35,6 +35,8 @@
     "@eeacms/volto-block-toc",
     "@eeacms/volto-insitu-policy",
     "@eeacms/volto-datablocks",
+    "@eeacms/volto-globalsearch",
+    "@eeacms/volto-searchlib",
     "@plone-collective/volto-authomatic"
   ],
   "jest": {
@@ -189,6 +191,7 @@
     "@eeacms/volto-plotlycharts": "9.2.0",
     "@eeacms/volto-redmine-helpdesk": "0.2.0",
     "@eeacms/volto-searchlib": "0.9.2",
+    "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-tableau": "7.2.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "d3-array": "^2.12.1"
@@ -199,7 +202,9 @@
     "@eeacms/volto-eea-design-system": "1.23.7",
     "@eeacms/volto-eea-kitkat": "<25.0.0",
     "@eeacms/volto-eea-website-theme": "<2.0.0",
+    "@eeacms/volto-globalsearch": "1.1.0",
     "@eeacms/volto-insitu-policy": "0.1.24",
+    "@eeacms/volto-searchlib": "<1.0.0",
     "@plone-collective/volto-authomatic": "2.0.0",
     "@plone/volto": "16.31.4"
   },
