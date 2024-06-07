@@ -1925,10 +1925,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@eeacms/volto-description-block@npm:1.2.4"
-  checksum: 77bc9ac931a01c22aeb9bb8d8b035e2e06935a43b8833205f1a3a377855b1d24152a08bd42ddb624f228208149728a925d1550c1cae5f008aa24dce8c87407bd
+"@eeacms/volto-description-block@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-description-block@npm:2.0.1"
+  checksum: 4d80c24d63562bf86ba06f773f76cb4d03c12bb98552a0cfc974cbd845cc9000e12f65379aca28003fee2618eb7dc931963301fefbf550fad23da714f56f173f
   languageName: node
   linkType: hard
 
@@ -1947,9 +1947,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.31.0":
-  version: 1.31.0
-  resolution: "@eeacms/volto-eea-design-system@npm:1.31.0"
+"@eeacms/volto-eea-design-system@npm:1.31.1":
+  version: 1.31.1
+  resolution: "@eeacms/volto-eea-design-system@npm:1.31.1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -1958,7 +1958,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 3.6.0
     slick-carousel: ^1.8.1
-  checksum: 892ef3abb2aebcac4186920d6b0eaff8a69ee663e329b783bb8d9dded8364e1f5b005c52c11ca8cad6e943c88ca82785d08cf976f5c4c4a7a572ecdc3002889f
+  checksum: 476c028f4880db97c30923d01484a3f23cd7af3c4a46e926627a38f6bc3561bb0034b86037c1c1a05b237cc343de472d8e2ef95d0512877f1917249100ed6b5f
   languageName: node
   linkType: hard
 
@@ -14430,7 +14430,7 @@ __metadata:
   dependencies:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 5.0.2
-    "@eeacms/volto-eea-design-system": 1.31.0
+    "@eeacms/volto-eea-design-system": 1.31.1
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
     "@eeacms/volto-insitu-policy": 0.1.25
