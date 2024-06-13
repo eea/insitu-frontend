@@ -203,7 +203,7 @@
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-eea-website-theme": "^1.33.2",
     "@eeacms/volto-globalsearch": "^1.1.0",
-    "@eeacms/volto-insitu-policy": "0.1.26",
+    "@eeacms/volto-insitu-policy": "0.1.27",
     "@eeacms/volto-searchlib": "^0.9.3",
     "@plone-collective/volto-authomatic": "2.0.0",
     "@plone/volto": "16.31.4"
