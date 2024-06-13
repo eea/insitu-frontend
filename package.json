@@ -33,10 +33,10 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-block-toc",
-    "@eeacms/volto-insitu-policy",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-searchlib",
+    "@eeacms/volto-insitu-policy",
     "@plone-collective/volto-authomatic"
   ],
   "jest": {
@@ -198,13 +198,13 @@
   },
   "dependencies": {
     "@eeacms/volto-block-toc": "5.0.0",
-    "@eeacms/volto-datablocks": "<7.0.0",
+    "@eeacms/volto-datablocks": "^6.4.1",
     "@eeacms/volto-eea-design-system": "1.23.7",
-    "@eeacms/volto-eea-kitkat": "<25.0.0",
-    "@eeacms/volto-eea-website-theme": "<2.0.0",
-    "@eeacms/volto-globalsearch": "1.1.0",
-    "@eeacms/volto-insitu-policy": "0.1.24",
-    "@eeacms/volto-searchlib": "<1.0.0",
+    "@eeacms/volto-eea-kitkat": "^24.0.1",
+    "@eeacms/volto-eea-website-theme": "^1.33.2",
+    "@eeacms/volto-globalsearch": "^1.1.0",
+    "@eeacms/volto-insitu-policy": "0.1.26",
+    "@eeacms/volto-searchlib": "^0.9.3",
     "@plone-collective/volto-authomatic": "2.0.0",
     "@plone/volto": "16.31.4"
   },
