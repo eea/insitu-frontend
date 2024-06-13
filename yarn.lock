@@ -2059,34 +2059,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.26":
-  version: 0.1.26
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.26"
+"@eeacms/volto-insitu-policy@npm:0.1.27":
+  version: 0.1.27
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.27"
   dependencies:
     "@eeacms/volto-block-style": "github:eea/volto-block-style#6.x.x"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": ^1.33.2
     "@eeacms/volto-globalsearch": ^1.1.0
-    "@eeacms/volto-listing-block": 8.1.0
+    "@eeacms/volto-listing-block": 8.1.1
     "@eeacms/volto-searchlib": 2.0.2
     "@eeacms/volto-tabs-block": ^7.5.1
     "@elastic/search-ui": 1.21.2
     "@tanstack/react-table": ^8.17.3
     d3-array: 2.12.1
     query-string: 7.1.0
-  checksum: a85a927564fa38746bce98de8dcda783775e804b0e945b2cc7a8792d521eafbc0d7dce3fb6887bd8979b879c26e7d57ad3559416bc5ef35d9f1eafa16313eba8
+  checksum: c57dceeaaef49c3ab7c2100a2db3cf96ca40360dad8eac750582a3b83385e5293c5b76f33992a78febf3c8bc1a785b0c0adab5cc481965c6fd65657ac4173289
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:8.1.0":
-  version: 8.1.0
-  resolution: "@eeacms/volto-listing-block@npm:8.1.0"
+"@eeacms/volto-listing-block@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-listing-block@npm:8.1.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 77cbf91c4608b222d1c4b5aea0abed6db4da067fa631a295330e16375aafc6754bc1b625085871044094699162dcd4553d7513b071cfad08e3da71ce36c9b1c0
+  checksum: 67d2bcba08093acc3980a08f0766dd7f723402eeb339194b3a05423c2aa81dc8bcd4a48a2830672c2bed8767b5b7013413ef8a2329aae51a68f5424d2d3e04d1
   languageName: node
   linkType: hard
 
@@ -15204,7 +15204,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.31.1
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.26
+    "@eeacms/volto-insitu-policy": 0.1.27
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
