@@ -2224,9 +2224,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.27":
-  version: 0.1.27
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.27"
+"@eeacms/volto-insitu-policy@npm:0.1.28":
+  version: 0.1.28
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.28"
   dependencies:
     "@eeacms/volto-block-style": "github:eea/volto-block-style#6.x.x"
     "@eeacms/volto-eea-design-system": "*"
@@ -2239,7 +2239,7 @@ __metadata:
     "@tanstack/react-table": ^8.17.3
     d3-array: 2.12.1
     query-string: 7.1.0
-  checksum: c57dceeaaef49c3ab7c2100a2db3cf96ca40360dad8eac750582a3b83385e5293c5b76f33992a78febf3c8bc1a785b0c0adab5cc481965c6fd65657ac4173289
+  checksum: 07a5cfa16725342b5dfda16986af49e715cd83dfa56625adbbdf91f0445e6d7c23f3b79e652140b3359ba232ba83b22e0ba5cf299ba2570801202cb484395955
   languageName: node
   linkType: hard
 
@@ -15400,7 +15400,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-eea-website-theme": ^1.33.2
     "@eeacms/volto-globalsearch": ^1.1.0
-    "@eeacms/volto-insitu-policy": 0.1.27
+    "@eeacms/volto-insitu-policy": 0.1.28
     "@eeacms/volto-searchlib": ^0.9.3
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
