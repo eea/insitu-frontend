@@ -134,7 +134,7 @@ pipeline {
       }
     }
 
-    stage('Build & Push ( on tag )') {
+ stage('Build & Push ( on tag )') {
       when {
         anyOf {
           buildingTag()
@@ -142,7 +142,7 @@ pipeline {
         }
       }
       steps{
-        node(label: 'docker-big-jobs') {
+        node(label: 'docker-host') {
           script {
             checkout scm
             if (env.BRANCH_NAME == 'master') {
