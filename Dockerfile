@@ -27,6 +27,7 @@ RUN yarn \
  && rm -rf /home/node/.yarn \
  && rm -rf /home/node/.npm \
  && rm -rf /app/.yarn/cache
+
 USER root
 
 EXPOSE 3000 3001

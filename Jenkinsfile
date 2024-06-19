@@ -94,8 +94,6 @@ pipeline {
         }
       }
     }
-
-
     stage('Release') {
       when {
         allOf {
@@ -141,7 +139,6 @@ pipeline {
         }
       }
     }
-
     stage('Release catalog ( on tag )') {
       when {
         buildingTag()
@@ -154,7 +151,6 @@ pipeline {
         }
       }
     }
-
     stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
@@ -169,7 +165,6 @@ pipeline {
         }
       }
     }
-
     stage('Update SonarQube Tags: Prod') {
       when {
         not {
@@ -188,7 +183,6 @@ pipeline {
         }
       }
     }
-
     stage('Update SonarQube Tags: Demo') {
       when {
         not {
@@ -208,7 +202,6 @@ pipeline {
       }
     }
   }
-
   post {
     changed {
       script {
