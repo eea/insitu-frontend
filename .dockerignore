@@ -1,28 +1,25 @@
 # Folders
-
 .git
 .yarn/cache
 .storybook
 build
 cache
-locales/\*.json
+locales/*.json
 node_modules
 omelette
-
 # Files
-
 .env
-_.log
+*.log
 .dockerignore
 .editorconfig
+Dockerfile
 .eslintignore
 .eslintrc.js
 .gitignore
 .gitmodules
 .prettierignore
 bootstrap
-cypress_.json
+cypress*.json
 docker-compose.yml
-Dockerfile
 Jenkinsfile
-start\_.sh
+start_.sh
