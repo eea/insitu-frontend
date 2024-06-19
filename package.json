@@ -6,6 +6,7 @@
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
+    "analyze": "BUNDLE_ANALYZE=true razzle build --noninteractive",
     "build": "razzle build --noninteractive",
     "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx,ts,tsx}'",
@@ -18,34 +19,33 @@
     "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
     "test": "razzle test --passWithNoTests",
     "typecheck": "tsc --project tsconfig.json --noEmit",
-    "cypress:open": "make test-acceptance",
-    "cypress:run": "test-acceptance-headless",
+    "cypress:run": "NODE_ENV=test cypress run",
+    "cypress:open": "NODE_ENV=test cypress open",
+    "cypress:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn start",
+    "cypress:test-acceptance-server": "make test-acceptance-server",
+    "cy:test:fixture:setup": "node cypress/support/reset-fixture.js",
+    "cy:test:fixture:teardown": "node cypress/support/reset-fixture.js teardown",
+    "ci:start-backend": "make start-test-backend",
+    "ci:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn build && start-test start:prod http-get://localhost:3000 cypress:run",
+    "ci:cypress:run": "start-test ci:start-backend http-get://localhost:55001/plone ci:start-frontend",
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
+    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https",
+    "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "update": "make update",
+    "release": "make release",
+    "issues": "make issues",
+    "issues:all": "make issues-all",
+    "status": "make status",
+    "pull": "make pull"
   },
   "private": true,
   "workspaces": [
     "src/addons/*"
   ],
   "theme": "@eeacms/volto-insitu-policy",
-  "resolutions": {
-    "d3-array": "^2.12.1",
-    "react-error-overlay": "6.0.9",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "classnames": "2.2.6",
-    "react-countup/countup.js": "2.5.0",
-    "@elastic/search-ui": "1.21.2",
-    "@plone-collective/volto-authomatic": "2.0.1",
-    "volto-subsites": "4.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-colorscales": "github:eea/react-colorscales#1.0.2",
-    "@eeacms/volto-globalsearch": "2.0.0",
-    "@eeacms/volto-searchlib": "2.0.2",
-    "@eeacms/volto-insitu-policy": "git+https://github.com/eea/volto-insitu-policy.git#volto-17"
-  },
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-eea-design-system",
@@ -57,8 +57,81 @@
     "@eeacms/volto-insitu-policy",
     "@plone-collective/volto-authomatic"
   ],
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "build/public/static/js/*.js",
+        "maxSize": "50kB"
+      },
+      {
+        "path": "build/public/static/js/ChartEditor*.js",
+        "maxSize": "530kB"
+      },
+      {
+        "path": "build/public/static/js/d3*.js",
+        "maxSize": "103kB"
+      },
+      {
+        "path": "build/public/static/js/draft-js*.js",
+        "maxSize": "120kB"
+      },
+      {
+        "path": "build/public/static/js/jsoneditor*.js",
+        "maxSize": "270kB"
+      },
+      {
+        "path": "build/public/static/js/react-sortable*.js",
+        "maxSize": "70kB"
+      },
+      {
+        "path": "build/public/static/js/citation*.js",
+        "maxSize": "370kB"
+      },
+      {
+        "path": "build/public/static/js/react-plotly*.js",
+        "maxSize": "1.1MB"
+      },
+      {
+        "path": "build/public/static/js/404*.js",
+        "maxSize": "1.1MB"
+      },
+      {
+        "path": "build/public/static/js/client*.js",
+        "maxSize": "1.2MB"
+      }
+    ]
+  },
+  "resolutions": {
+    "@elastic/search-ui": "1.21.2",
+    "@eeacms/volto-embed": "10.0.2",
+    "@eeacms/volto-embed-static-content": "0.2.4",
+    "@eeacms/volto-datablocks": "7.1.0",
+    "@eeacms/volto-datahub": "2.0.0",
+    "@eeacms/volto-eea-design-system": "1.31.1",
+    "@eeacms/volto-eea-kitkat": "25.1.1",
+    "@eeacms/volto-eea-map": "4.1.0",
+    "@eeacms/volto-eea-website-policy": "2.1.1",
+    "@eeacms/volto-eea-website-theme": "2.1.2",
+    "@eeacms/volto-globalsearch": "2.0.0",
+    "@eeacms/volto-plotlycharts": "10.0.3",
+    "@eeacms/volto-redmine-helpdesk": "1.0.0",
+    "@eeacms/volto-searchlib": "2.0.2",
+    "@eeacms/volto-tableau": "8.0.3",
+    "@eeacms/volto-workflow-progress": "5.0.0",
+    "@eeacms/volto-block-data-figure": "8.1.1",
+    "@eeacms/volto-editing-progress": "1.0.0",
+    "@eeacms/volto-citation": "1.1.0",
+    "@plone-collective/volto-authomatic": "2.0.1",
+    "@eeacms/volto-description-block": "2.0.2",
+    "volto-subsites": "4.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-colorscales": "github:eea/react-colorscales#1.0.2",
+    "d3-array": "^2.12.1",
+    "react-error-overlay": "6.0.9",
+    "eslint-plugin-jsx-a11y": "6.7.1"
+  },
   "dependencies": {
-    "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-block-toc": "5.0.2",
     "@eeacms/volto-datablocks": "7.1.0",
     "@eeacms/volto-eea-design-system": "1.31.1",
@@ -68,12 +141,9 @@
     "@eeacms/volto-insitu-policy": "git+https://github.com/eea/volto-insitu-policy.git#volto-17",
     "@eeacms/volto-searchlib": "2.0.2",
     "@plone-collective/volto-authomatic": "2.0.0",
-    "@plone/volto": "17.15.6"
+    "@plone/volto": "17.16.1"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "3.10.0",
-    "@babel/plugin-proposal-throw-expressions": "*",
-    "@loadable/babel-plugin": "*",
     "@plone/scripts": "^3.3.2",
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
@@ -120,10 +190,10 @@
       "@plone/volto/webpack-plugins/webpack-less-plugin": "<rootDir>/node_modules/@plone/volto/webpack-plugins/webpack-less-plugin",
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
+      "@plone/volto-slate/(.*)$": "<rootDir>/node_modules/@plone/volto/packages/volto-slate/src/$1",
+      "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
       "@package/(.*)$": "<rootDir>/src/$1",
-      "~/(.*)$": "<rootDir>/src/$1",
-      "\\.(css|less|scss|sass)$": "identity-obj-proxy",
-      "@plone/volto-slate/(.*)$": "<rootDir>/node_modules/@plone/volto/packages/volto-slate/src/$1"
+      "~/(.*)$": "<rootDir>/src/$1"
     },
     "coverageThreshold": {
       "global": {

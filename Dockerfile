@@ -15,18 +15,18 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
  && rm -rf /app/src/addons/* \
  && find /app/ -not -user node -exec chown node {} \+ \
  && corepack enable
-
+ 
 USER node
 
 ARG MAX_OLD_SPACE_SIZE=16384
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN yarn \
- && yarn build \
- && rm -rf /home/node/.cache \
- && rm -rf /home/node/.yarn \
- && rm -rf /home/node/.npm \
- && rm -rf /app/.yarn/cache
+&& yarn build \
+&& rm -rf /home/node/.cache \
+&& rm -rf /home/node/.yarn \
+&& rm -rf /home/node/.npm \
+&& rm -rf /app/.yarn/cache
 
 USER root
 

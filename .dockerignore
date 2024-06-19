@@ -7,12 +7,12 @@ cache
 locales/*.json
 node_modules
 omelette
+
 # Files
 .env
 *.log
 .dockerignore
 .editorconfig
-Dockerfile
 .eslintignore
 .eslintrc.js
 .gitignore
@@ -21,5 +21,6 @@ Dockerfile
 bootstrap
 cypress*.json
 docker-compose.yml
+Dockerfile
 Jenkinsfile
 start_.sh

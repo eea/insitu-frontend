@@ -72,6 +72,27 @@ pipeline {
 //      }
 //  
    
+    stage('Bundlewatch') {
+      when {
+        branch 'develop'
+      }
+      steps {
+        node(label: 'docker-big-jobs') {
+          script {
+            checkout scm
+            env.NODEJS_HOME = "${tool 'NodeJS'}"
+            env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+            env.CI=false
+            sh "yarn"
+            sh "make develop"
+            sh "make install"
+            sh "make build"
+            sh "yarn bundlewatch"
+          }
+        }
+      }
+    }
+
     stage('Pull Request') {
       when {
         allOf {
@@ -94,6 +115,8 @@ pipeline {
         }
       }
     }
+
+
     stage('Release') {
       when {
         allOf {
@@ -119,7 +142,7 @@ pipeline {
         }
       }
       steps{
-        node(label: 'docker-host') {
+        node(label: 'docker-big-jobs') {
           script {
             checkout scm
             if (env.BRANCH_NAME == 'master') {
@@ -139,6 +162,7 @@ pipeline {
         }
       }
     }
+
     stage('Release catalog ( on tag )') {
       when {
         buildingTag()
@@ -151,6 +175,7 @@ pipeline {
         }
       }
     }
+
     stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
@@ -165,6 +190,7 @@ pipeline {
         }
       }
     }
+
     stage('Update SonarQube Tags: Prod') {
       when {
         not {
@@ -183,6 +209,7 @@ pipeline {
         }
       }
     }
+
     stage('Update SonarQube Tags: Demo') {
       when {
         not {
@@ -202,6 +229,7 @@ pipeline {
       }
     }
   }
+
   post {
     changed {
       script {
