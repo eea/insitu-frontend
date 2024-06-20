@@ -2032,13 +2032,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@eeacms/volto-globalsearch@npm:1.1.0"
+"@eeacms/volto-globalsearch@npm:*":
+  version: 2.0.0
+  resolution: "@eeacms/volto-globalsearch@npm:2.0.0"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-  checksum: 206075389e308731b489eeb6a6e4da14e365c0b37a9146ef4193ef8eb4ab04d55f714df6ec172a7ec76cf2071255d9c93f13e162ac4174b0b7ebd3c8893206fd
+  checksum: df5af22a9f8328550a8b54da5bc412b1713fd116418dc00b70243806ec66fa85b20bf815ffe6d824071fbb8dcd2a2f016b4338feaf127c141d5a549ba2dafb36
   languageName: node
   linkType: hard
 
@@ -2059,22 +2059,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.28":
-  version: 0.1.28
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.28"
+"@eeacms/volto-insitu-policy@npm:0.1.29":
+  version: 0.1.29
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.29"
   dependencies:
-    "@eeacms/volto-block-style": "github:eea/volto-block-style#6.x.x"
+    "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": ^1.33.2
-    "@eeacms/volto-globalsearch": ^1.1.0
-    "@eeacms/volto-listing-block": 8.1.1
-    "@eeacms/volto-searchlib": 2.0.2
-    "@eeacms/volto-tabs-block": ^7.5.1
+    "@eeacms/volto-eea-website-theme": "*"
+    "@eeacms/volto-globalsearch": "*"
+    "@eeacms/volto-listing-block": "*"
+    "@eeacms/volto-searchlib": "*"
+    "@eeacms/volto-tabs-block": "*"
     "@elastic/search-ui": 1.21.2
     "@tanstack/react-table": ^8.17.3
-    d3-array: 2.12.1
-    query-string: 7.1.0
-  checksum: 07a5cfa16725342b5dfda16986af49e715cd83dfa56625adbbdf91f0445e6d7c23f3b79e652140b3359ba232ba83b22e0ba5cf299ba2570801202cb484395955
+  checksum: 4ca9ce939180de64dfcb8b5fc4a5ccc8f7ac7f683659d0537fe459dc0adafaafe093c1c307626e856f1af706b42282d76ad5418897a6e7a769799d687b055d36
   languageName: node
   linkType: hard
 
@@ -2142,7 +2140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:2.0.2":
+"@eeacms/volto-searchlib@npm:*":
   version: 2.0.2
   resolution: "@eeacms/volto-searchlib@npm:2.0.2"
   dependencies:
@@ -10209,7 +10207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-array@npm:2, d3-array@npm:2.12.1, d3-array@npm:^2.12.1, d3-array@npm:^2.3.0, d3-array@npm:^2.8.0":
+"d3-array@npm:2, d3-array@npm:^2.12.1, d3-array@npm:^2.3.0, d3-array@npm:^2.8.0":
   version: 2.12.1
   resolution: "d3-array@npm:2.12.1"
   dependencies:
@@ -15204,7 +15202,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.31.1
     "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-website-theme": <2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.28
+    "@eeacms/volto-insitu-policy": 0.1.29
     "@plone-collective/volto-authomatic": 2.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.4
