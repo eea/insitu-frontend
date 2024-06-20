@@ -106,7 +106,7 @@
     "stylelint-prettier": "4.0.2",
     "ts-jest": "^26.4.2",
     "ts-loader": "9.4.4",
-    "typescript": "5.4.5"
+    "typescript": "5.2.2"
   },
   "jest": {
     "modulePathIgnorePatterns": [
