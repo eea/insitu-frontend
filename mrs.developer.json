@@ -31,6 +31,14 @@
     "develop": false,
     "path": "src"
   },
+  "volto-searchlib": {
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-taxonomy": {
     "url": "git@github.com:eea/volto-taxonomy.git",
     "https": "https://github.com/eea/volto-taxonomy.git",
