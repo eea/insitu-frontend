@@ -31,6 +31,14 @@
     "develop": false,
     "path": "src"
   },
+  "volto-searchlib": {
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-taxonomy": {
     "url": "git@github.com:eea/volto-taxonomy.git",
     "https": "https://github.com/eea/volto-taxonomy.git",
@@ -227,6 +235,14 @@
     "url": "git@github.com:eea/volto-eea-website-theme.git",
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-datablocks": {
+    "url": "git@github.com:eea/volto-datablocks.git",
+    "https": "https://github.com/eea/volto-datablocks.git",
+    "package": "@eeacms/volto-datablocks",
     "branch": "develop",
     "develop": false,
     "path": "src"
