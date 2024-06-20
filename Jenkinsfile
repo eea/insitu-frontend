@@ -72,27 +72,6 @@ pipeline {
 //      }
 //  
    
-    stage('Bundlewatch') {
-      when {
-        branch 'develop'
-      }
-      steps {
-        node(label: 'docker-big-jobs') {
-          script {
-            checkout scm
-            env.NODEJS_HOME = "${tool 'NodeJS'}"
-            env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
-            env.CI=false
-            sh "yarn"
-            sh "make develop"
-            sh "make install"
-            sh "make build"
-            sh "yarn bundlewatch"
-          }
-        }
-      }
-    }
-
     stage('Pull Request') {
       when {
         allOf {
@@ -134,7 +113,7 @@ pipeline {
       }
     }
 
- stage('Build & Push ( on tag )') {
+    stage('Build & Push ( on tag )') {
       when {
         anyOf {
           buildingTag()

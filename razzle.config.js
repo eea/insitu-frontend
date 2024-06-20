@@ -3,8 +3,6 @@
  * @module razzle.config
  */
 const fs = require('fs');
-const CompressionPlugin = require('compression-webpack-plugin'); //gzip
-const BrotliPlugin = require('brotli-webpack-plugin'); //brotli
 
 let voltoPath = './node_modules/@plone/volto';
 
@@ -21,26 +19,26 @@ if (configFile) {
     voltoPath = `./${jsConfig.baseUrl}/${pathsConfig['@plone/volto'][0]}`;
 }
 
-module.exports = require(`${voltoPath}/razzle.config`);
+const defaultVoltoRazzleConfig = require(`${voltoPath}/razzle.config`);
+const { modifyWebpackConfig } = defaultVoltoRazzleConfig;
+
+const customModifyWebpackConfig = ({
+  env: { target, dev },
+  webpackConfig,
+  webpackObject,
+  options,
+}) => {
+  const config = modifyWebpackConfig({
+    env: { target, dev },
+    webpackConfig,
+    webpackObject,
+    options,
+  });
+  // add custom code here..
+  return config;
+};
 
 module.exports = {
-  ...module.exports,
-  plugins: [
-    ...module.exports.plugins,
-    new CompressionPlugin({
-      //gzip plugin
-      filename: '[path].gz[query]',
-      algorithm: 'gzip',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 8192,
-      minRatio: 0.8,
-    }),
-    new BrotliPlugin({
-      //brotli plugin
-      asset: '[path].br[query]',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8,
-    }),
-  ],
+  ...defaultVoltoRazzleConfig,
+  modifyWebpackConfig: customModifyWebpackConfig,
 };
