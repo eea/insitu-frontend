@@ -2167,10 +2167,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@eeacms/volto-description-block@npm:2.1.0"
-  checksum: b823f175c1366aeeb1df28bbd6f87f05437b7f273bc9ede83fcf8d99f5638db589fdc20aa6ae1cc056e09ce2eab4cf08f9541e1421c36381420d43321ab2b8a2
+"@eeacms/volto-description-block@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@eeacms/volto-description-block@npm:2.2.0"
+  checksum: 997aa25d19b16e409387487929c517a81b2d8c32f027ac7e4ec0d04976957c6d4761362819ac03ff29a5450308069fc34e41fefb17437d5c9b51de7d2153ca46
   languageName: node
   linkType: hard
 
@@ -2286,9 +2286,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.30":
-  version: 0.1.30
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.30"
+"@eeacms/volto-insitu-policy@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.31"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
@@ -2299,7 +2299,7 @@ __metadata:
     "@eeacms/volto-tabs-block": "*"
     "@elastic/search-ui": 1.21.2
     "@tanstack/react-table": ^8.17.3
-  checksum: b0e3b38d2723d784eeacd30eb19a86a4e9e422e4648c79ed14b284b578e1258a2ba7cd1e4eafeb4dd406736cd92ac834ec638605c025c1e55646ce49f74f6454
+  checksum: 716c4d6da2a9fec22b9eacc983d915b3352faf458d36d8e36a8e3fa396564f448e7f768c78bb0e0e95bcf2cf11ea6751392203dfd34e29a86841b90d4a1e7790
   languageName: node
   linkType: hard
 
@@ -16350,7 +16350,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 25.1.1
     "@eeacms/volto-eea-website-theme": 2.1.2
     "@eeacms/volto-globalsearch": 2.0.0
-    "@eeacms/volto-insitu-policy": 0.1.30
+    "@eeacms/volto-insitu-policy": 0.1.31
     "@eeacms/volto-searchlib": 2.0.2
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
