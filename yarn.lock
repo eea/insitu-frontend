@@ -2077,6 +2077,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-data-figure@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-block-data-figure@npm:8.1.1"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    "@eeacms/volto-widget-dataprovenance": "*"
+    "@eeacms/volto-widget-geolocation": "*"
+    "@eeacms/volto-widget-temporal-coverage": "*"
+  checksum: 1ee20581585046ac99a3423ff2a9572ecebab07456454619491dfe3e6d1d6f4b1fc411e08fc01d6bd44005a1396f638ff1beca53ae31e4c0c068cf5e716049d9
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-block-data-table@npm:1.1.0":
   version: 1.1.0
   resolution: "@eeacms/volto-block-data-table@npm:1.1.0"
@@ -2280,6 +2292,15 @@ __metadata:
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
   checksum: 50e79bec4aef91ede7a9599623f314738119a32136c26189a5737128cd052e052d4a6c8953ea3b391b60ed42a8f3992d89461f9651d2e2535c4ba118dcaa1802
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-embed-static-content@npm:0.2.4":
+  version: 0.2.4
+  resolution: "@eeacms/volto-embed-static-content@npm:0.2.4"
+  dependencies:
+    "@eeacms/volto-embed": "*"
+  checksum: 1f09c3c4e667b4c16eab2d846eec31653802909e5e0b0f8481bc8722481933af655b4fc57bebe2d64c433d70eb4e658177008999b3398da48915ab0a3168b59d
   languageName: node
   linkType: hard
 
@@ -2561,14 +2582,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-dataprovenance@npm:1.0.0":
+"@eeacms/volto-widget-dataprovenance@npm:*, @eeacms/volto-widget-dataprovenance@npm:1.0.0":
   version: 1.0.0
   resolution: "@eeacms/volto-widget-dataprovenance@npm:1.0.0"
   checksum: 4f42a98d4a1c7d2e2103aebe10fb7bf53b99074b9abd93344d710ce39297676c8a980aa7078b3c173b38709463bc1e78ed22bb3b52f3c9d93ed3e5138a52a0f9
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:6.0.0":
+"@eeacms/volto-widget-geolocation@npm:*, @eeacms/volto-widget-geolocation@npm:6.0.0":
   version: 6.0.0
   resolution: "@eeacms/volto-widget-geolocation@npm:6.0.0"
   dependencies:
@@ -2578,7 +2599,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-temporal-coverage@npm:6.0.0":
+"@eeacms/volto-widget-temporal-coverage@npm:*, @eeacms/volto-widget-temporal-coverage@npm:6.0.0":
   version: 6.0.0
   resolution: "@eeacms/volto-widget-temporal-coverage@npm:6.0.0"
   dependencies:
@@ -17590,6 +17611,7 @@ __metadata:
   resolution: "insitu-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
+    "@eeacms/volto-block-data-figure": 8.1.1
     "@eeacms/volto-block-toc": 5.0.2
     "@eeacms/volto-datablocks": 7.2.0
     "@eeacms/volto-eea-design-system": 1.31.1
@@ -17597,6 +17619,7 @@ __metadata:
     "@eeacms/volto-eea-map": 4.1.0
     "@eeacms/volto-eea-website-theme": 2.1.2
     "@eeacms/volto-embed": 10.0.2
+    "@eeacms/volto-embed-static-content": 0.2.4
     "@eeacms/volto-globalsearch": 2.0.0
     "@eeacms/volto-insitu-policy": 0.1.31
     "@eeacms/volto-plotlycharts": 10.0.4

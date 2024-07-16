@@ -33,10 +33,12 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-embed",
+    "@eeacms/volto-embed-static-content",
     "@eeacms/volto-tableau",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-eea-map",
     "@eeacms/volto-plotlycharts",
+    "@eeacms/volto-block-data-figure",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-searchlib",
@@ -50,6 +52,8 @@
     "@eeacms/volto-datablocks": "7.2.0",
     "@eeacms/volto-eea-map": "4.1.0",
     "@eeacms/volto-embed": "10.0.2",
+    "@eeacms/volto-embed-static-content": "0.2.4",
+    "@eeacms/volto-block-data-figure": "8.1.1",
     "@eeacms/volto-plotlycharts": "10.0.4",
     "@eeacms/volto-tableau": "8.0.3",
     "@eeacms/volto-eea-design-system": "1.31.1",
@@ -68,6 +72,7 @@
     "eslint-plugin-jsx-a11y": "6.7.1"
   },
   "dependencies": {
+    "@eeacms/volto-block-data-figure": "8.1.1",
     "@eeacms/volto-block-toc": "5.0.2",
     "@eeacms/volto-datablocks": "7.2.0",
     "@eeacms/volto-eea-design-system": "1.31.1",
@@ -75,6 +80,7 @@
     "@eeacms/volto-eea-map": "4.1.0",
     "@eeacms/volto-eea-website-theme": "2.1.2",
     "@eeacms/volto-embed": "10.0.2",
+    "@eeacms/volto-embed-static-content": "0.2.4",
     "@eeacms/volto-globalsearch": "2.0.0",
     "@eeacms/volto-insitu-policy": "0.1.31",
     "@eeacms/volto-plotlycharts": "10.0.4",
