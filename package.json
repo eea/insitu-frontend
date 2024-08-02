@@ -2,7 +2,7 @@
   "name": "insitu-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -82,7 +82,7 @@
     "@eeacms/volto-embed": "10.0.3",
     "@eeacms/volto-embed-static-content": "0.2.4",
     "@eeacms/volto-globalsearch": "2.0.0",
-    "@eeacms/volto-insitu-policy": "0.1.33",
+    "@eeacms/volto-insitu-policy": "0.1.34",
     "@eeacms/volto-plotlycharts": "10.0.5",
     "@eeacms/volto-searchlib": "2.0.2",
     "@eeacms/volto-tableau": "8.0.6",
