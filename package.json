@@ -74,7 +74,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "8.1.2",
-    "@eeacms/volto-block-toc": "5.0.2",
+    "@eeacms/volto-block-toc": "6.0.0",
     "@eeacms/volto-datablocks": "7.2.1",
     "@eeacms/volto-eea-design-system": "1.31.2",
     "@eeacms/volto-eea-kitkat": "25.2.0",
