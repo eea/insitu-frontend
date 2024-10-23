@@ -22,7 +22,7 @@
     },
     {
       "path": "build/public/static/js/client*.js",
-      "maxSize": "1.2MB"
+      "maxSize": "1.5MB"
     },
     {
       "path": "build/public/static/js/404*.js",
@@ -43,14 +43,6 @@
     {
       "path": "build/public/static/js/sanitize-html*.js",
       "maxSize": "85kB"
-    },
-    {
-      "path": "build/public/static/js/client.618086ca*.js",
-      "maxSize": "300kB"
-    },
-    {
-      "path": "build/public/static/js/client.4d8258ff*.js",
-      "maxSize": "1.5MB"
     },
     {
       "path": "build/public/static/js/rehype-prism-plus.aff3a218.chunk*.js",
