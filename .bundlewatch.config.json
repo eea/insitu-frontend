@@ -47,6 +47,10 @@
     {
       "path": "build/public/static/js/client.618086ca*.js",
       "maxSize": "300kB"
+    },
+    {
+      "path": "build/public/static/js/client.4d8258ff*.js",
+      "maxSize": "1.5MB"
     }
   ]
 }
