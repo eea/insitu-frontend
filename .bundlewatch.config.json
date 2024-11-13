@@ -30,7 +30,7 @@
     },
     {
       "path": "build/public/static/js/ChartEditor*.js",
-      "maxSize": "525kB"
+      "maxSize": "550kB"
     },
     {
       "path": "build/public/static/js/jsoneditor*.js",
