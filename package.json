@@ -86,7 +86,7 @@
     "@eeacms/volto-embed-content": "0.2.1",
     "@eeacms/volto-embed-static-content": "0.3.1",
     "@eeacms/volto-globalsearch": "2.0.1",
-    "@eeacms/volto-insitu-policy": "0.1.42",
+    "@eeacms/volto-insitu-policy": "0.1.43",
     "@eeacms/volto-plotlycharts": "10.0.12",
     "@eeacms/volto-searchlib": "2.0.3",
     "@eeacms/volto-tableau": "8.1.3",
