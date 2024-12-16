@@ -2354,9 +2354,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.44":
-  version: 0.1.44
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.44"
+"@eeacms/volto-insitu-policy@npm:0.1.45":
+  version: 0.1.45
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.45"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
@@ -2367,7 +2367,7 @@ __metadata:
     "@eeacms/volto-tabs-block": "*"
     "@elastic/search-ui": 1.21.2
     "@tanstack/react-table": ^8.17.3
-  checksum: da2e0913aaa37080a4304ba98eaf4b2358192596c61bcfa53863088872ebecd8624a8cded125df6eec21e1ae9bc5ccd581aeb9f9b74321b42bcac90712ea6502
+  checksum: 5a1beb5c53bf2aa79620e8f994d18e81fc0b57079fff11e6bdc844724de106fb1bcb1aac266277f0a2d80830ea361e8cb3cf5503a6d39a9aef8c8f385afa3c05
   languageName: node
   linkType: hard
 
@@ -18496,7 +18496,7 @@ __metadata:
     "@eeacms/volto-embed-content": 0.2.1
     "@eeacms/volto-embed-static-content": 0.3.1
     "@eeacms/volto-globalsearch": 2.0.1
-    "@eeacms/volto-insitu-policy": 0.1.44
+    "@eeacms/volto-insitu-policy": 0.1.45
     "@eeacms/volto-plotlycharts": 10.0.13
     "@eeacms/volto-searchlib": 2.0.4
     "@eeacms/volto-tableau": 8.1.3
