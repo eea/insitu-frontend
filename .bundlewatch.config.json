@@ -25,16 +25,16 @@
       "maxSize": "1.5MB"
     },
     {
-      "path": "build/public/static/js/404*.js",
+      "path": "build/public/static/js/PlotlyEditor*.js",
+      "maxSize": "1.4MB"
+    },
+    {
+      "path": "build/public/static/js/plotly-js-dist-plotly-min*.js",
       "maxSize": "1.3MB"
     },
     {
-      "path": "build/public/static/js/ChartEditor*.js",
-      "maxSize": "550kB"
-    },
-    {
       "path": "build/public/static/js/jsoneditor*.js",
-      "maxSize": "270kB"
+      "maxSize": "545kB"
     },
     {
       "path": "build/public/static/js/react-plotly*.js",
