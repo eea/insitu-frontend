@@ -45,8 +45,8 @@
       "maxSize": "85kB"
     },
     {
-      "path": "build/public/static/js/rehype-prism-plus.aff3a218.chunk*.js",
-      "maxSize": "300kB"
+      "path": "build/public/static/js/rehype-prism-plus*.js",
+      "maxSize": "250kB"
     }
   ]
 }
