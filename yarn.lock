@@ -2516,9 +2516,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:12.0.6":
-  version: 12.0.6
-  resolution: "@eeacms/volto-plotlycharts@npm:12.0.6"
+"@eeacms/volto-plotlycharts@npm:12.0.7":
+  version: 12.0.7
+  resolution: "@eeacms/volto-plotlycharts@npm:12.0.7"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.2
     "@eeacms/volto-datablocks": "*"
@@ -2529,7 +2529,7 @@ __metadata:
     jsoneditor: 10.2.0
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
-  checksum: 2e02f6fdb4fd1454bfffd4bfeccab685c4fad5471b239047fc4b804c129292c3ba7bc633ac7e9623a1e7a828e37a1ec29e52c0bc7a52bb7cec8cb790e25ea762
+  checksum: 763680c88fe739afc1e2a7c90361a446d749dec68901dec520e3d1194811bd6cb9c7e6ae36a66f9f9e1423ab52ffe9632c6b7151baa9a4085636280d8b85f29e
   languageName: node
   linkType: hard
 
@@ -18671,7 +18671,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-insitu-policy": 0.1.49
-    "@eeacms/volto-plotlycharts": 12.0.6
+    "@eeacms/volto-plotlycharts": 12.0.7
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-tableau": 8.1.4
     "@plone-collective/volto-authomatic": 2.0.1
