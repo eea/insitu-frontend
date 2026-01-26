@@ -43,6 +43,7 @@
     "@eeacms/volto-block-toc",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-searchlib",
+    "@eeacms/volto-chatbot",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-insitu-policy",
@@ -62,7 +63,8 @@
     "@eeacms/volto-plotlycharts": "13.3.7",
     "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-globalsearch": "3.0.0",
-    "@eeacms/volto-searchlib": "3.0.1",
+    "@eeacms/volto-searchlib": "^2.1.10",
+    "@eeacms/volto-chatbot": "^0.6.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "volto-subsites": "4.0.0",
@@ -88,10 +90,10 @@
     "@eeacms/volto-globalsearch": "3.0.0",
     "@eeacms/volto-insitu-policy": "0.1.52",
     "@eeacms/volto-plotlycharts": "13.3.7",
-    "@eeacms/volto-searchlib": "3.0.1",
+    "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-tableau": "8.1.5",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@plone/volto": "17.20.0"
+    "@plone/volto": "17.22.3"
   },
   "devDependencies": {
     "@cypress/code-coverage": "3.10.0",
