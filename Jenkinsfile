@@ -117,7 +117,7 @@ pipeline {
     }
 
 
-stage('Release') {
+    stage('Release') {
       when {
         allOf {
           environment name: 'CHANGE_ID', value: ''
@@ -179,6 +179,7 @@ stage('Release') {
     stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
+        not { environment name: 'RANCHER_STACKID', value: '' }
       }
       steps {
         node(label: 'docker') {
