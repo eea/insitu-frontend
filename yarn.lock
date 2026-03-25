@@ -2366,13 +2366,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@eeacms/volto-globalsearch@npm:2.1.2"
+"@eeacms/volto-globalsearch@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@eeacms/volto-globalsearch@npm:4.0.0"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-  checksum: bb9604a7c0290605619fbd9e3b0dbf2f1bf8deb1ba244f3cbefce91bbbf1daf00735650df49fc0fc72d9d343af6ce9da349b0bb5e654bbc9ae61af6b45e3ae31
+  checksum: 228f39e5ef2d70ad4e3c440974bd72713df16f881ea04153fbf57537ff9693a027a8966a8d25e696436062345476f409528a623c5133f0e880040c4fe46acdb4
   languageName: node
   linkType: hard
 
@@ -18666,7 +18666,7 @@ __metadata:
     "@eeacms/volto-embed": 11.0.0
     "@eeacms/volto-embed-content": 1.0.0
     "@eeacms/volto-embed-static-content": 1.0.0
-    "@eeacms/volto-globalsearch": 2.1.2
+    "@eeacms/volto-globalsearch": 4.0.0
     "@eeacms/volto-insitu-policy": 0.1.53
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-searchlib": ^2.1.10
