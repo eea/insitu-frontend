@@ -2163,13 +2163,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:9.0.0":
-  version: 9.0.0
-  resolution: "@eeacms/volto-block-toc@npm:9.0.0"
+"@eeacms/volto-block-toc@npm:9.0.1":
+  version: 9.0.1
+  resolution: "@eeacms/volto-block-toc@npm:9.0.1"
   dependencies:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
-  checksum: c62556e45a798d426c87f68541b2f2c9f0425101be53a34e7f23d1b4f4a5a5c13856296a178f5b72c359da55c01770040c67c041a96d1e40c93caeb844d8fc13
+  checksum: 0098c9d8a679dc33cc0f9d98e5dffbb6ebdb7d9d09bf4ab03794eafdff3f17bd3816887f984be42d660f6b274c67cd9b47b647ee4b018993af8a1deaea72a97f
   languageName: node
   linkType: hard
 
@@ -18656,7 +18656,7 @@ __metadata:
   dependencies:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-data-figure": 9.0.1
-    "@eeacms/volto-block-toc": 9.0.0
+    "@eeacms/volto-block-toc": 9.0.1
     "@eeacms/volto-datablocks": 8.0.0
     "@eeacms/volto-eea-design-system": 1.50.1
     "@eeacms/volto-eea-kitkat": 32.0.2
