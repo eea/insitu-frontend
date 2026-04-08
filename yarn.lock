@@ -2083,15 +2083,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:9.0.0":
-  version: 9.0.0
-  resolution: "@eeacms/volto-block-data-figure@npm:9.0.0"
+"@eeacms/volto-block-data-figure@npm:9.0.1":
+  version: 9.0.1
+  resolution: "@eeacms/volto-block-data-figure@npm:9.0.1"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@eeacms/volto-widget-geolocation": "*"
     "@eeacms/volto-widget-temporal-coverage": "*"
-  checksum: 1273f19e5b9f54866ef856d556b73b29af451dfbe2cd62db1fdb77319a228080a64eaeb2622726bd52a7cf17d7966951c08cbbc1f75997979cf805bbbaa18f1d
+  checksum: 15c92b31c414f6b8c166600f844f59a3a3884d123b538c2c05891470cb0e1a2d139a450db96b07564229d748b57f34d95e46292aa874fba78c23e86fdbfe594d
   languageName: node
   linkType: hard
 
@@ -18655,7 +18655,7 @@ __metadata:
   resolution: "insitu-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-block-data-figure": 9.0.0
+    "@eeacms/volto-block-data-figure": 9.0.1
     "@eeacms/volto-block-toc": 9.0.0
     "@eeacms/volto-datablocks": 8.0.0
     "@eeacms/volto-eea-design-system": 1.50.1
