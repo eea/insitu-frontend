@@ -3669,9 +3669,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.3.4":
-  version: 4.3.4
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.4"
+"@eeacms/volto-eea-website-theme@npm:4.3.6":
+  version: 4.3.6
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.6"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -3679,7 +3679,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 5cfb02c48c328313aae70f058230d1e3a509b739dd8e3f910ec5417679211162bdf053c09205d62186d9b3fdb07dcd28a086687246914e31dc49fbf090bfd5bb
+  checksum: b164799a02bddc22a7a884181533741f9e1b8ee155178a6e2f9dd25588b591581676c4362a715ccc0e1c3460d4ab4b6b8e208ff5361a3d288c448675dddee6ba
   languageName: node
   linkType: hard
 
@@ -3995,14 +3995,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@eeacms/volto-tableau@npm:9.0.2"
+"@eeacms/volto-tableau@npm:9.0.3":
+  version: 9.0.3
+  resolution: "@eeacms/volto-tableau@npm:9.0.3"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: affa85ba674b4d8a38a395e70efb08f0023369848179ab777238ddc72e59eceaadf4f0b5dad064cbdbdae8cc82ca3c17d17a19a48f9f2032fff8fb2b127f63ef
+  checksum: 193499ebe87b184001cfa31381f611e37d8a9f1d1f372befef3119304a71d0bea5ceb6c496e1a6be13a483897a335f7c83dac2bb8506f8bfe7a666cabff72659
   languageName: node
   linkType: hard
 
@@ -20187,7 +20187,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.60.5
     "@eeacms/volto-eea-kitkat": 33.0.5
     "@eeacms/volto-eea-map": 6.0.1
-    "@eeacms/volto-eea-website-theme": 4.3.4
+    "@eeacms/volto-eea-website-theme": 4.3.6
     "@eeacms/volto-embed": 11.0.4
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
@@ -20195,7 +20195,7 @@ __metadata:
     "@eeacms/volto-insitu-policy": 0.1.53
     "@eeacms/volto-plotlycharts": 14.0.4
     "@eeacms/volto-searchlib": 4.1.0
-    "@eeacms/volto-tableau": 9.0.2
+    "@eeacms/volto-tableau": 9.0.3
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
     "@loadable/babel-plugin": 5.13.2
     "@loadable/webpack-plugin": 5.15.2
