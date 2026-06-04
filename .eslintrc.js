@@ -1,15 +1,15 @@
 const fs = require('fs');
-const path = require('path');
+const { AddonRegistry } = require('@plone/registry/addon-registry');
+
 const projectRootPath = __dirname;
-const packageJson = require(path.join(projectRootPath, 'package.json'));
 
 let voltoPath = './node_modules/@plone/volto';
 
 let configFile;
-if (fs.existsSync(`${this.projectRootPath}/tsconfig.json`))
-  configFile = `${this.projectRootPath}/tsconfig.json`;
-else if (fs.existsSync(`${this.projectRootPath}/jsconfig.json`))
-  configFile = `${this.projectRootPath}/jsconfig.json`;
+if (fs.existsSync(`${projectRootPath}/tsconfig.json`))
+  configFile = `${projectRootPath}/tsconfig.json`;
+else if (fs.existsSync(`${projectRootPath}/jsconfig.json`))
+  configFile = `${projectRootPath}/jsconfig.json`;
 
 if (configFile) {
   const jsConfig = require(configFile).compilerOptions;
@@ -18,16 +18,15 @@ if (configFile) {
     voltoPath = `./${jsConfig.baseUrl}/${pathsConfig['@plone/volto'][0]}`;
 }
 
-const { AddonRegistry } = require('@plone/registry/addon-registry');
-const reg = new AddonRegistry(__dirname);
+const { registry } = AddonRegistry.init(projectRootPath);
 
-// Extends ESlint configuration for adding the aliases to `src` directories in Volto addons
-const addonAliases = Object.keys(reg.packages).map((o) => [
+// Extends ESLint configuration for adding aliases to local Volto add-ons.
+const addonAliases = Object.keys(registry.packages).map((o) => [
   o,
-  reg.packages[o].modulePath,
+  registry.packages[o].modulePath,
 ]);
 
-const addonExtenders = reg.getEslintExtenders().map((m) => require(m));
+const addonExtenders = registry.getEslintExtenders().map((m) => require(m));
 
 const defaultConfig = {
   extends: `${voltoPath}/.eslintrc`,
@@ -43,6 +42,9 @@ const defaultConfig = {
           ['~', `${__dirname}/src`],
         ],
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      },
+      'babel-plugin-root-import': {
+        rootPathSuffix: 'src',
       },
     },
   },
