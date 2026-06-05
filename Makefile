@@ -57,6 +57,10 @@ install: ## Install the frontend
 build:			## Build frontend
 	NODE_OPTIONS="--max-old-space-size=8192" yarn build
 
+.PHONY: demo
+demo:			## Start local frontend w/ Demo InSitu content
+	NODE_OPTIONS="--max-old-space-size=8192" RAZZLE_API_PATH=https://demo-insitu.copernicus.02pre.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://demo-insitu.copernicus.02pre.eea.europa.eu yarn start
+
 .PHONY: preinstall
 preinstall: ## Preinstall task, checks if missdev (mrs-developer) is present and runs it
 	if [ -f $$(pwd)/mrs.developer.json ]; then make develop; fi

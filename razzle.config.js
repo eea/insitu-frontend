@@ -34,7 +34,15 @@ const customModifyWebpackConfig = ({
     webpackObject,
     options,
   });
-  // add custom code here..
+  // Suppress handsontable's bundled moment locale warnings: handsontable's
+  // package.json exports field blocks those locale paths, causing webpack to
+  // warn about every locale it tries to dynamically require.
+  config.plugins.push(
+    new webpackObject.IgnorePlugin({
+      resourceRegExp: /locale/,
+      contextRegExp: /handsontable[/\\]node_modules[/\\]moment/,
+    }),
+  );
   return config;
 };
 
