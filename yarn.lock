@@ -18022,7 +18022,7 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-data-figure": 9.0.2
     "@eeacms/volto-block-toc": 9.0.1
-    "@eeacms/volto-chatbot": 0.6.1
+    "@eeacms/volto-chatbot": 2.0.4
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-eea-design-system": 1.60.8
     "@eeacms/volto-eea-kitkat": 33.0.7
