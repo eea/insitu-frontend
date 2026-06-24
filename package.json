@@ -63,7 +63,7 @@
     "@eeacms/volto-plotlycharts": "14.0.6",
     "@eeacms/volto-tableau": "9.0.4",
     "@eeacms/volto-globalsearch": "4.0.1",
-    "@eeacms/volto-searchlib": "4.1.0",
+    "@eeacms/volto-searchlib": "5.0.0",
     "@eeacms/volto-chatbot": "^0.6.1",
     "@eeacms/volto-citation": "2.0.1",
     "@eeacms/volto-datahub": "3.0.2",
@@ -105,7 +105,7 @@
     "@eeacms/volto-globalsearch": "4.0.1",
     "@eeacms/volto-insitu-policy": "0.1.55",
     "@eeacms/volto-plotlycharts": "14.0.6",
-    "@eeacms/volto-searchlib": "4.1.0",
+    "@eeacms/volto-searchlib": "5.0.0",
     "@eeacms/volto-tableau": "9.0.4",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "18.35.0"

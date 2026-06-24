@@ -2497,9 +2497,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@eeacms/volto-searchlib@npm:4.1.0"
+"@eeacms/volto-searchlib@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@eeacms/volto-searchlib@npm:5.0.0"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
@@ -2540,7 +2540,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: e7ac2f16dbaa3582ba68aa36d0f6a52825c5d5cc7d13177149ca6ace5b1824ab1434cb3cc5f6332e422c86b326896ce8be7cc39e7c45365e40cd45130174c7cb
+  checksum: e8ee6e0a4336c89a4adf56f601e3b18ef912ccd153de1889fc0ee9f3e4b7241a6a1cb2e36dc075284c4455b6e19f96f5249d30a50cae8693d0411515b3cb3c89
   languageName: node
   linkType: hard
 
@@ -18034,7 +18034,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-insitu-policy": 0.1.55
     "@eeacms/volto-plotlycharts": 14.0.6
-    "@eeacms/volto-searchlib": 4.1.0
+    "@eeacms/volto-searchlib": 5.0.0
     "@eeacms/volto-tableau": 9.0.4
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
     "@loadable/babel-plugin": 5.13.2
