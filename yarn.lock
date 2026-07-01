@@ -2243,9 +2243,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:33.0.8":
-  version: 33.0.8
-  resolution: "@eeacms/volto-eea-kitkat@npm:33.0.8"
+"@eeacms/volto-eea-kitkat@npm:33.1.1":
+  version: 33.1.1
+  resolution: "@eeacms/volto-eea-kitkat@npm:33.1.1"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.0.3
@@ -2282,12 +2282,12 @@ __metadata:
     "@eeacms/volto-timeline-block": 3.0.1
     "@eeacms/volto-toolbar-actions": 3.0.1
     "@eeacms/volto-widget-dataprovenance": 2.0.1
-    "@eeacms/volto-widget-geolocation": 7.0.4
+    "@eeacms/volto-widget-geolocation": 8.0.1
     "@eeacms/volto-widget-temporal-coverage": 7.0.1
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
     "@plone-collective/volto-sentry": 1.0.1
-  checksum: 8d2a7e30fe20a6b524d75d1cf067f81b9916a129d085b0c7bde7da79fcb99e9a56d7c31087d55fb12f179d7e247500b99ae9112e1df895d549e2722eef1a10a0
+  checksum: 5a1d34b438905a4ca635ac2fd03ff5bb29a3c8ac2c6f814e72ea6843235374817d8ce3ca81f53ffac5bbe7c85ab39591d0366d7989b747f4e4ef7caadd0115b6
   languageName: node
   linkType: hard
 
@@ -2383,9 +2383,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-insitu-policy@npm:0.1.56":
-  version: 0.1.56
-  resolution: "@eeacms/volto-insitu-policy@npm:0.1.56"
+"@eeacms/volto-insitu-policy@npm:0.1.57":
+  version: 0.1.57
+  resolution: "@eeacms/volto-insitu-policy@npm:0.1.57"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
@@ -2396,7 +2396,7 @@ __metadata:
     "@eeacms/volto-tabs-block": "*"
     "@elastic/search-ui": 1.21.2
     "@tanstack/react-table": ^8.17.3
-  checksum: ba44e74f6a06749e12aa06c2d4ff6e498a47b89279300ca1a7a9246c0c88ca68c439e7c01818cb0b9df12f3f6078a227315553f9680857b116c274be4fadd397
+  checksum: ffe26c7727bd4767f13b26d8d99a6c6d2fadc697f6495b3240a514bbb83fced211e64ecd5b20bcf78b6625b940bab391437cea66eb0c12043452a800b92117fa
   languageName: node
   linkType: hard
 
@@ -2666,13 +2666,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:*, @eeacms/volto-widget-geolocation@npm:7.0.4":
+"@eeacms/volto-widget-geolocation@npm:*":
   version: 7.0.4
   resolution: "@eeacms/volto-widget-geolocation@npm:7.0.4"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     i18n-iso-countries: 6.2.1
   checksum: fce14852fd364956a6a8d155f3ad0780688127d5785e6f7760387a35814e419eac97884ea248d5a3671d54da698fad8ae20998f09e8ffb7750eb89cbfe0c1957
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-widget-geolocation@npm:8.0.1":
+  version: 8.0.1
+  resolution: "@eeacms/volto-widget-geolocation@npm:8.0.1"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: 91725351c2cdd3fd4a6afcac22b57d989c2e7c983eeebd96470c87606547bbfa98646e90036a201ee0cd9cc560abf49285a175c192b54e91361fbc797523f9d8
   languageName: node
   linkType: hard
 
@@ -18025,14 +18035,14 @@ __metadata:
     "@eeacms/volto-chatbot": 2.0.4
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-eea-design-system": 1.60.8
-    "@eeacms/volto-eea-kitkat": 33.0.8
+    "@eeacms/volto-eea-kitkat": 33.1.1
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-website-theme": 4.4.0
     "@eeacms/volto-embed": 11.0.5
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-globalsearch": 4.0.1
-    "@eeacms/volto-insitu-policy": 0.1.56
+    "@eeacms/volto-insitu-policy": 0.1.57
     "@eeacms/volto-plotlycharts": 14.0.6
     "@eeacms/volto-searchlib": 5.0.0
     "@eeacms/volto-tableau": 9.0.4
