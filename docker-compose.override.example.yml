@@ -4,8 +4,8 @@ services:
     entrypoint: sh -c "tail -f /dev/null"
 
     environment:
-      CIS2_IMPORT_VIEW_TOKEN: "testViewTokenCIS2"
-      CIS2_IMPORT_TOKEN: "replacethis"
+      CIS2_IMPORT_VIEW_TOKEN: "testViewTokenCIS2" #betterleaks:allow
+      CIS2_IMPORT_TOKEN: "replacethis" #betterleaks:allow
       CIS2_IMPORT_URL: "replacethis"
 
     volumes:
