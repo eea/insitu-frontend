@@ -69,7 +69,7 @@
     "@eeacms/volto-datahub": "4.0.0",
     "@eeacms/volto-design-tokens": "2.0.1",
     "@eeacms/volto-editing-progress": "3.0.1",
-    "@eeacms/volto-eea-versions": "2.0.1",
+    "@eeacms/volto-eea-versions": "2.0.2",
     "@eeacms/volto-redmine-helpdesk": "2.0.1",
     "@eeacms/volto-workflow-progress": "6.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
