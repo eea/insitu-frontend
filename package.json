@@ -108,7 +108,7 @@
     "@eeacms/volto-searchlib": "5.0.0",
     "@eeacms/volto-tableau": "9.0.4",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@plone/volto": "18.35.0"
+    "@plone/volto": "18.35.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.28.6",
