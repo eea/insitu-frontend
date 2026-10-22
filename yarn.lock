@@ -2121,6 +2121,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-toc@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-block-toc@npm:9.0.4"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: ae5461f42569e6f2f6e7e25d61a8f3080b8f56ca485320e12fec59029c4f42c12aa811e01ed680c0fc73d4f5e505bebb9c19e35e649306b6e70429dcbc5a753b
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-call-to-action-block@npm:6.0.1":
   version: 6.0.1
   resolution: "@eeacms/volto-call-to-action-block@npm:6.0.1"
@@ -18056,7 +18066,7 @@ __metadata:
     "@babel/plugin-syntax-export-namespace-from": 7.8.3
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-data-figure": 9.0.2
-    "@eeacms/volto-block-toc": 9.0.1
+    "@eeacms/volto-block-toc": 9.0.4
     "@eeacms/volto-chatbot": 2.0.4
     "@eeacms/volto-datablocks": 9.0.4
     "@eeacms/volto-eea-design-system": 1.61.5
