@@ -73,7 +73,7 @@
     "@eeacms/volto-redmine-helpdesk": "2.0.3",
     "@eeacms/volto-workflow-progress": "6.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@eeacms/volto-description-block": "3.0.1",
+    "@eeacms/volto-description-block": "4.0.0",
     "volto-subsites": "4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
