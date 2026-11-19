@@ -92,7 +92,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "9.0.2",
-    "@eeacms/volto-block-toc": "9.0.4",
+    "@eeacms/volto-block-toc": "10.0.0",
     "@eeacms/volto-chatbot": "2.0.4",
     "@eeacms/volto-datablocks": "9.0.6",
     "@eeacms/volto-eea-design-system": "1.61.10",
