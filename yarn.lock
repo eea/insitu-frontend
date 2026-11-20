@@ -2052,15 +2052,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@eeacms/volto-block-data-figure@npm:9.0.2"
+"@eeacms/volto-block-data-figure@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-block-data-figure@npm:10.0.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@eeacms/volto-widget-geolocation": "*"
     "@eeacms/volto-widget-temporal-coverage": "*"
-  checksum: fd95695044173638dc4bee6443a3ca105ade456de6bde4365dfe0ffb6a1c62a996e32b3977064249177414ecc5a10616b70c160c0644a9e9a2c0dff78833a048
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 383cb2c89a52b2de242dfa01bef51bf88e4d918c31cf4ac7c879d17a12b8f90314e1d38a76ebf613a0cf33f0c263c27bf1ee6f5967acad0cad3d19e0bf4c7e1a
   languageName: node
   linkType: hard
 
@@ -2218,10 +2221,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-description-block@npm:3.0.1"
-  checksum: 4e6528f2105b2ff48598f932ab77dd4ae0bd06da1d098dce5e0b86774eb6726a5aeb6d44d673519de97a12ba2909d8ccfb30c470e0d76c832670d620e1fd3806
+"@eeacms/volto-description-block@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@eeacms/volto-description-block@npm:4.0.0"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 568209f8a02b66c53ca32c1ae7810f54d4b2aa45b724764420fc72001e851e4cdcdba868b917d961ddc7d60348c45cadf21b66e619734681ef0facb1194f7dfe
   languageName: node
   linkType: hard
 
@@ -18114,7 +18120,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.18.6
     "@babel/plugin-syntax-export-namespace-from": 7.8.3
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-block-data-figure": 9.0.2
+    "@eeacms/volto-block-data-figure": 10.0.0
     "@eeacms/volto-block-toc": 10.0.0
     "@eeacms/volto-chatbot": 2.0.4
     "@eeacms/volto-datablocks": 10.0.0
