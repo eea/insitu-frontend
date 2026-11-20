@@ -71,7 +71,7 @@
     "@eeacms/volto-editing-progress": "4.0.0",
     "@eeacms/volto-eea-versions": "3.0.0",
     "@eeacms/volto-redmine-helpdesk": "2.0.3",
-    "@eeacms/volto-workflow-progress": "6.0.1",
+    "@eeacms/volto-workflow-progress": "7.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "4.0.0",
     "volto-subsites": "4.0.0",
