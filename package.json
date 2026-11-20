@@ -65,7 +65,7 @@
     "@eeacms/volto-globalsearch": "4.1.1",
     "@eeacms/volto-searchlib": "8.0.0",
     "@eeacms/volto-chatbot": "^0.6.1",
-    "@eeacms/volto-citation": "2.0.1",
+    "@eeacms/volto-citation": "3.0.0",
     "@eeacms/volto-datahub": "5.0.0",
     "@eeacms/volto-design-tokens": "2.0.1",
     "@eeacms/volto-editing-progress": "3.0.1",
