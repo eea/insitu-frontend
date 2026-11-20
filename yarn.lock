@@ -70,7 +70,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.0.0, @babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.28.5, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.0.0, @babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
   version: 7.29.7
   resolution: "@babel/core@npm:7.29.7"
   dependencies:
@@ -1583,7 +1583,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.12.11, @babel/preset-env@npm:^7.16.4, @babel/preset-env@npm:^7.28.5, @babel/preset-env@npm:^7.9.5":
+"@babel/preset-env@npm:^7.12.11, @babel/preset-env@npm:^7.16.4, @babel/preset-env@npm:^7.9.5":
   version: 7.29.7
   resolution: "@babel/preset-env@npm:7.29.7"
   dependencies:
@@ -1690,7 +1690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.12.10, @babel/preset-react@npm:^7.16.0, @babel/preset-react@npm:^7.28.5, @babel/preset-react@npm:^7.9.4":
+"@babel/preset-react@npm:^7.12.10, @babel/preset-react@npm:^7.16.0, @babel/preset-react@npm:^7.9.4":
   version: 7.29.7
   resolution: "@babel/preset-react@npm:7.29.7"
   dependencies:
@@ -1706,7 +1706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.12.7, @babel/preset-typescript@npm:^7.16.0, @babel/preset-typescript@npm:^7.28.5, @babel/preset-typescript@npm:^7.9.0":
+"@babel/preset-typescript@npm:^7.12.7, @babel/preset-typescript@npm:^7.16.0, @babel/preset-typescript@npm:^7.9.0":
   version: 7.29.7
   resolution: "@babel/preset-typescript@npm:7.29.7"
   dependencies:
@@ -1736,7 +1736,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.1, @babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.18, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.28.4, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.2, @babel/runtime@npm:^7.4.5, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.1, @babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.18, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.2, @babel/runtime@npm:^7.4.5, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.29.7
   resolution: "@babel/runtime@npm:7.29.7"
   checksum: bc311855c6dbf5356030979584ca0f8b6cee39fe058175b02e85a73e246fc76ae30248b0d40e70c2652101faeb43279468ed2d086a670673eb9783c1fee1df2b
@@ -2323,21 +2323,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:6.0.2":
-  version: 6.0.2
-  resolution: "@eeacms/volto-eea-map@npm:6.0.2"
+"@eeacms/volto-eea-map@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@eeacms/volto-eea-map@npm:7.0.0"
   dependencies:
     "@arcgis/core": 4.29.10
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
-    "@plone/scripts": "*"
     esri-loader: 3.6.0
+    events: 3.3.0
     jsoneditor: 10.1.0
     lodash: 4.17.21
-    razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 6.5.5
-  checksum: 5539709b9c64d030f55be365141a04c637fc282f230ab9546fe9ccffc442e2a65bfa7f947c0e63415cac8f41dc18856f5e1174275b06a7581d3e63ffbd924a8a
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 27d35f4a9dc2d565f546573fcb8f6510e60bd84f697e67af9550b7f32fc0dea7df1079867e11a8c4df96d17386de9678bec3c84ca710826742ec1f5e3fc59fd3
   languageName: node
   linkType: hard
 
@@ -4289,25 +4291,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/babel-preset-razzle@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@plone/babel-preset-razzle@npm:1.0.1"
-  dependencies:
-    "@babel/core": ^7.28.5
-    "@babel/plugin-syntax-bigint": ^7.8.3
-    "@babel/plugin-transform-modules-commonjs": ^7.10.4
-    "@babel/plugin-transform-runtime": ^7.9.0
-    "@babel/preset-env": ^7.28.5
-    "@babel/preset-react": ^7.28.5
-    "@babel/preset-typescript": ^7.28.5
-    "@babel/runtime": ^7.28.4
-    babel-plugin-syntax-jsx: ^6.18.0
-    babel-plugin-transform-react-remove-prop-types: ^0.4.24
-    chalk: ^5.6.2
-  checksum: 2e581d85bac30fdac7d27475b1dae631522997d646c018f6175b0b51364e0c90b7a69538355491e389a2a3c2807b9ed978c1ec34fb0e3a747109dede89723fde
-  languageName: node
-  linkType: hard
-
 "@plone/registry@npm:2.7.3":
   version: 2.7.3
   resolution: "@plone/registry@npm:2.7.3"
@@ -4325,31 +4308,6 @@ __metadata:
     react-dom:
       optional: true
   checksum: 87794006e303ab994767f05b29ec15be9c196e857d098f9eaf19657c847ec7721a9a2f1e6b122f64d33399d50e129a94691af73b7aa35e2b60c0962c79bf40bd
-  languageName: node
-  linkType: hard
-
-"@plone/scripts@npm:*":
-  version: 4.0.1
-  resolution: "@plone/scripts@npm:4.0.1"
-  dependencies:
-    "@babel/core": ^7.0.0
-    "@plone/babel-preset-razzle": ^1.0.1
-    babel-plugin-react-intl: 5.1.17
-    chalk: 4
-    commander: 8.2.0
-    comment-json: ^4.2.3
-    execa: 9.6.0
-    find-parent-dir: ^0.3.1
-    fs-extra: 10.1.0
-    git-url-parse: ^13.1.0
-    glob: ^10.4.5
-    lodash: 4.18.1
-    mrs-developer: ^2.1.1
-    pofile: 1.0.10
-    wait-on: ^9.0.4
-  bin:
-    i18n: i18n.cjs
-  checksum: bf189fc6ed59abd3687eed05bc5632b5fd676a7ea0f2404deb1184fbbcd0caebc5cf41b262bae105b689c72fb1552b5297258c2d03da40214014e1df4e8bd506
   languageName: node
   linkType: hard
 
@@ -10742,13 +10700,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.6.2":
-  version: 5.6.2
-  resolution: "chalk@npm:5.6.2"
-  checksum: 4ee2d47a626d79ca27cb5299ecdcce840ef5755e287412536522344db0fc51ca0f6d6433202332c29e2288c6a90a2b31f3bd626bc8c14743b6b6ee28abd3b796
-  languageName: node
-  linkType: hard
-
 "change-emitter@npm:^0.1.2":
   version: 0.1.6
   resolution: "change-emitter@npm:0.1.6"
@@ -15058,7 +15009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"events@npm:^3.0.0, events@npm:^3.2.0":
+"events@npm:3.3.0, events@npm:^3.0.0, events@npm:^3.2.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
   checksum: f6f487ad2198aa41d878fa31452f1a3c00958f46e9019286ff4787c84aac329332ab45c9cdc8c445928fc6d7ded294b9e005a7fce9426488518017831b272780
@@ -18175,7 +18126,7 @@ __metadata:
     "@eeacms/volto-datablocks": 10.0.0
     "@eeacms/volto-eea-design-system": 1.61.10
     "@eeacms/volto-eea-kitkat": 34.0.4
-    "@eeacms/volto-eea-map": 6.0.2
+    "@eeacms/volto-eea-map": 7.0.0
     "@eeacms/volto-eea-website-theme": 5.0.7
     "@eeacms/volto-embed": 12.0.0
     "@eeacms/volto-embed-content": 1.0.2
