@@ -67,7 +67,7 @@
     "@eeacms/volto-chatbot": "^0.6.1",
     "@eeacms/volto-citation": "3.0.0",
     "@eeacms/volto-datahub": "5.0.0",
-    "@eeacms/volto-design-tokens": "2.0.1",
+    "@eeacms/volto-design-tokens": "3.0.0",
     "@eeacms/volto-editing-progress": "4.0.0",
     "@eeacms/volto-eea-versions": "3.0.0",
     "@eeacms/volto-redmine-helpdesk": "2.0.3",
